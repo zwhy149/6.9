@@ -32,6 +32,20 @@ The requested `specificity >= 0.94` target is not supported by the current valid
 
 For uncertainty reporting, `accuracy = 0.9438 +/- 0.0071` is defensible only if the `+/-` value is explicitly labeled as SEM over 30 repeated splits. It is not the cross-seed standard deviation. Specificity SEM remains `0.0257` because each test split contains only 5-6 normal files; one false positive changes a seed's specificity by roughly 0.14-0.20.
 
+## 5Ah source-domain update
+
+The 5Ah source-domain detector is now improved by validation-only model-pool selection over the repeated ET/RF source results:
+
+- Accuracy: `0.9644 +/- 0.0356` cross-seed std
+- Specificity: `0.8833`
+- Recall: `0.9855`
+
+This supports the source detector being "around 95%" in accuracy. It still does not support a 95% specificity claim because the 5Ah normal holdout count is also small.
+
+## Rejected wavelet refinement
+
+A pure-voltage Haar/DWT transient-energy prefix model was implemented and screened as a possible innovation for separating smooth normal voltage decline from true short-circuit transients. In the 10-seed screen it underperformed the current 100Ah validation selector, so it is kept as a rejected ablation rather than claimed as the final method.
+
 ## Directory layout
 
 - `code/final_pipeline`: scripts used for the adopted final detector, validation-selected gate audit, error budget, and final report/figure generation.
@@ -40,6 +54,8 @@ For uncertainty reporting, `accuracy = 0.9438 +/- 0.0071` is defensible only if 
 - `results/strict_100Ah`: final 30-seed strict grouped 100Ah CSV results.
 - `results/5Ah_and_public_checks`: earlier 5Ah and public locked-check outputs.
 - `results/specificity_target_audit`: specificity target feasibility audit, post-hoc trade-off table, false-positive frequency, and uncertainty table.
+- `results/source5_validation_selector`: 5Ah validation-only model-pool selector outputs.
+- `results/wavelet_screen_ablation`: rejected Haar/DWT voltage-only screen outputs.
 - `figures/paper_main`: main paper/reviewer figures.
 - `figures/diagnostics`: diagnostic public/hard-case figures.
 - `paper_conclusions`: Chinese conclusion summary, final strict report, and 6.9 refinement update.
