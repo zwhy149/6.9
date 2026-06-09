@@ -1,0 +1,783 @@
+﻿sample_id,file_name,binary,hard_negative,severity_name,onset_s,seed,split,y_pred,alarm_time_s,y_true,delay_s,model
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,0,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,0,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_4,0.01Ω 4.xlsx,1,0,ESC-0.01ohm,10.0,0,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,0,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,0,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,0,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1,10Ω 1.xlsx,1,0,ESC-10ohm,10.0,0,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,1,0,ESC-10ohm,10.0,0,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,1,0,ESC-1ohm,9.9,0,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,0,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_5,1Ω 5.xlsx,1,0,ESC-1ohm,10.0,0,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_5_difficult,1Ω 5 difficult.xlsx,1,0,ESC-1ohm,10.0,0,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,0,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,0,test,1,75.0,1,70.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,0,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,0,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,0,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,0,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,0,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,0,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc7,0.01ohmcc7.xlsx,1,0,ESC-0.01ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,4,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,4,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,4,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,1,0,ESC-1ohm,9.9,4,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc9,1ohmcc9.xlsx,1,0,ESC-1ohm,9.7,4,test,1,50.0,1,40.3,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,4,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_5,1Ω 5.xlsx,1,0,ESC-1ohm,10.0,4,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_5_difficult,1Ω 5 difficult.xlsx,1,0,ESC-1ohm,10.0,4,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,0,,,4,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,4,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,4,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,4,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,0,1,,,4,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc4,0.01ohmcc4.xlsx,1,0,ESC-0.01ohm,10.0,7,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,7,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,7,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_8,0.1ohm cc 8.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,7,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1,10Ω 1.xlsx,1,0,ESC-10ohm,10.0,7,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,1,0,ESC-10ohm,10.0,7,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_2,10Ω 2.xlsx,1,0,ESC-10ohm,10.0,7,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_2_difficult,10Ω 2 difficult.xlsx,1,0,ESC-10ohm,10.0,7,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,7,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,7,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc5,1ohmcc5.xlsx,1,0,ESC-1ohm,9.8,7,test,1,50.0,1,40.2,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc9,1ohmcc9.xlsx,1,0,ESC-1ohm,9.7,7,test,1,50.0,1,40.3,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,7,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,7,test,1,150.0,1,145.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,7,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,7,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,7,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,7,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,7,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,7,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc9,0.01ohmcc9.xlsx,1,0,ESC-0.01ohm,9.9,20,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,20,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1,10Ω 1.xlsx,1,0,ESC-10ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,1,0,ESC-10ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc2,1ohmcc2.xlsx,1,0,ESC-1ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,20,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,20,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,20,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,20,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,20,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,20,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,20,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,20,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,20,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,20,test,1,50.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc8,0.01ohmcc8.xlsx,1,0,ESC-0.01ohm,10.1,33,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,33,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_5,10ohm cc 5.xlsx,1,0,ESC-10ohm,10.2,33,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,33,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,33,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,33,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,33,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,33,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,0,,,33,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,0,1,,,33,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,0,,,33,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,0,1,,,33,test,1,50.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,33,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,33,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc8,0.01ohmcc8.xlsx,1,0,ESC-0.01ohm,10.1,55,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,55,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,55,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,55,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,55,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,55,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,55,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,55,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,55,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,55,test,1,150.0,1,145.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,0,,,55,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,0,1,,,55,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,55,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,55,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,0,,,55,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,0,1,,,55,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc7,0.01ohmcc7.xlsx,1,0,ESC-0.01ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,69,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,69,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,69,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,69,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,69,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,69,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,69,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,0,,,69,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,0,1,,,69,test,1,50.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,0,,,69,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,0,1,,,69,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc3,0.01ohmcc3.xlsx,1,0,ESC-0.01ohm,9.9,72,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,72,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,72,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,72,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,72,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,72,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,72,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,72,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,72,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,1,0,ESC-1ohm,9.9,72,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc5,1ohmcc5.xlsx,1,0,ESC-1ohm,9.8,72,test,1,50.0,1,40.2,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,72,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,72,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,72,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,72,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,72,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,72,test,1,150.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,72,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,72,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,72,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc6,0.01ohmcc6.xlsx,1,0,ESC-0.01ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,73,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,73,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,73,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,73,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,73,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,0,,,73,test,1,50.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,0,1,,,73,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,73,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,73,test,1,50.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,73,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,73,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc1,0.01ohmcc1.xlsx,1,0,ESC-0.01ohm,10.1,88,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,88,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,88,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_6,1Ω 6.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_6_difficult,1Ω 6 difficult.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_7,1Ω 7.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_7_difficult,1Ω 7 difficult.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,88,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,0,,,88,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,88,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,0,1,,,88,test,1,250.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,88,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,88,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_5,0.01Ω 5.xlsx,1,0,ESC-0.01ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,91,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,91,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,91,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_9,10Ω 9.xlsx,1,0,ESC-10ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,91,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,91,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,91,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,91,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,91,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_5,normal 5.xlsx,0,0,,,91,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_5_difficult,normal 5 difficult.xlsx,0,1,,,91,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,91,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,91,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc9,0.01ohmcc9.xlsx,1,0,ESC-0.01ohm,9.9,97,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_2,0.1Ω 2.xlsx,1,0,ESC-0.1ohm,10.0,97,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_2_difficult,0.1Ω 2 difficult.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,97,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,97,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,97,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,97,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,97,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,97,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,0,,,97,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,0,1,,,97,test,1,50.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,97,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,97,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc1,0.01ohmcc1.xlsx,1,0,ESC-0.01ohm,10.1,102,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_2,0.1Ω 2.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_2_difficult,0.1Ω 2 difficult.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,102,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_2,10Ω 2.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_2_difficult,10Ω 2 difficult.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,102,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,102,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,102,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,0,,,102,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,0,1,,,102,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,102,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,102,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,102,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc1,0.01ohmcc1.xlsx,1,0,ESC-0.01ohm,10.1,110,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,110,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,110,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_8,0.1ohm cc 8.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,110,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,110,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,110,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,110,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,110,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,110,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,110,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,110,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,110,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,110,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,110,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_14,normal 14.xlsx,0,0,,,110,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_14_difficult,normal 14 difficult.xlsx,0,1,,,110,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,110,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,110,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,110,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,110,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,113,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,113,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_4,0.01Ω 4.xlsx,1,0,ESC-0.01ohm,10.0,113,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,113,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,113,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_4,10ohm cc 4.xlsx,1,0,ESC-10ohm,10.3,113,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,113,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,113,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,113,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,113,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,113,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,113,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,113,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,113,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,113,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,113,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,113,test,1,100.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,113,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,113,test,1,100.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,113,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc6,0.01ohmcc6.xlsx,1,0,ESC-0.01ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,114,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,114,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,114,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,114,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,114,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,114,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,114,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,114,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,114,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,114,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,114,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,114,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,114,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,114,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,119,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_5,0.01Ω 5.xlsx,1,0,ESC-0.01ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,119,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,119,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,119,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,119,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc2,1ohmcc2.xlsx,1,0,ESC-1ohm,10.0,119,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,119,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,119,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,119,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,119,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,119,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,119,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,119,test,1,400.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,119,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc3,0.01ohmcc3.xlsx,1,0,ESC-0.01ohm,9.9,130,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,130,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_5,10ohm cc 5.xlsx,1,0,ESC-10ohm,10.2,130,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,130,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,130,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,130,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,130,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_5,1Ω 5.xlsx,1,0,ESC-1ohm,10.0,130,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_5_difficult,1Ω 5 difficult.xlsx,1,0,ESC-1ohm,10.0,130,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,130,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,130,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,130,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,130,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,130,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc9,0.01ohmcc9.xlsx,1,0,ESC-0.01ohm,9.9,131,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,131,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_5,10ohm cc 5.xlsx,1,0,ESC-10ohm,10.2,131,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,131,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,131,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,131,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,1,0,ESC-1ohm,9.9,131,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,131,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,131,test,1,400.0,1,390.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,131,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,131,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,131,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,131,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,131,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,131,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,131,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc7,0.01ohmcc7.xlsx,1,0,ESC-0.01ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_2,10Ω 2.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_2_difficult,10Ω 2 difficult.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_7,10Ω 7.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_9,10Ω 9.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc5,1ohmcc5.xlsx,1,0,ESC-1ohm,9.8,145,test,1,50.0,1,40.2,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,145,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,145,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,145,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,145,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,145,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,145,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,145,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,145,test,1,150.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,145,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc10,0.01ohmcc10.xlsx,1,0,ESC-0.01ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,160,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,160,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1,10Ω 1.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,160,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,160,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,1,0,ESC-1ohm,9.9,160,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,160,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,160,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,160,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,160,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,160,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,160,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,160,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc8,0.01ohmcc8.xlsx,1,0,ESC-0.01ohm,10.1,170,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,170,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,170,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,170,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,170,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,1,0,ESC-1ohm,9.9,170,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,170,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,170,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_7,1Ω 7.xlsx,1,0,ESC-1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_7_difficult,1Ω 7 difficult.xlsx,1,0,ESC-1ohm,10.0,170,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,170,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,170,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,170,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,170,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,170,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,170,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc6,0.01ohmcc6.xlsx,1,0,ESC-0.01ohm,10.0,188,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,188,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,188,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,188,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,188,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,188,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,188,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,188,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc9,1ohmcc9.xlsx,1,0,ESC-1ohm,9.7,188,test,1,50.0,1,40.3,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,188,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,188,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,188,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,188,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,188,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,188,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,188,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,0,,,188,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,0,1,,,188,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc4,0.01ohmcc4.xlsx,1,0,ESC-0.01ohm,10.0,208,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,208,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,208,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,400.0,1,390.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,208,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,208,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,208,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,208,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,208,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,208,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc5,1ohmcc5.xlsx,1,0,ESC-1ohm,9.8,208,test,1,50.0,1,40.2,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,208,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,208,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,208,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,0,,,208,test,1,400.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,0,1,,,208,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,208,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,208,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,208,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,208,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc9,0.01ohmcc9.xlsx,1,0,ESC-0.01ohm,9.9,240,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,240,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,240,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,240,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_7,10Ω 7.xlsx,1,0,ESC-10ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_6,1Ω 6.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_6_difficult,1Ω 6 difficult.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_7,1Ω 7.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_7_difficult,1Ω 7 difficult.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,240,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,240,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,240,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,240,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_5,normal 5.xlsx,0,0,,,240,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_5_difficult,normal 5 difficult.xlsx,0,1,,,240,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_5,0.01Ω 5.xlsx,1,0,ESC-0.01ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,244,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,244,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,244,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,244,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,1,0,ESC-1ohm,9.9,244,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,244,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,244,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,244,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,244,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,244,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,244,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,244,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc1,0.01ohmcc1.xlsx,1,0,ESC-0.01ohm,10.1,261,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,261,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,261,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_8,0.1ohm cc 8.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,261,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,261,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,261,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,261,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,261,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc2,1ohmcc2.xlsx,1,0,ESC-1ohm,10.0,261,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,261,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,261,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,261,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,261,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,261,test,1,75.0,1,70.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,261,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,261,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,261,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_5,normal 5.xlsx,0,0,,,261,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_5_difficult,normal 5 difficult.xlsx,0,1,,,261,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_4,0.01Ω 4.xlsx,1,0,ESC-0.01ohm,10.0,269,test,1,250.0,1,240.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_8,0.1ohm cc 8.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_2_cc,0.1Ω 2 cc.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,269,test,0,,1,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,269,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,269,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,269,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_6,1Ω 6.xlsx,1,0,ESC-1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_6_difficult,1Ω 6 difficult.xlsx,1,0,ESC-1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,269,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,269,test,1,50.0,1,45.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,269,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,269,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,269,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,269,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,269,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,269,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc7,0.01ohmcc7.xlsx,1,0,ESC-0.01ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,400.0,1,390.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,275,test,1,50.0,1,39.7,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,275,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_5,10ohm cc 5.xlsx,1,0,ESC-10ohm,10.2,275,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,275,test,1,50.0,1,39.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,275,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,275,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,0,,,275,test,1,50.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,0,1,,,275,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,0,,,275,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,0,1,,,275,test,1,50.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,275,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,275,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01ohmcc4,0.01ohmcc4.xlsx,1,0,ESC-0.01ohm,10.0,289,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,289,test,1,100.0,1,90.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,289,test,1,75.0,1,70.9,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,289,test,1,50.0,1,39.8,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,289,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,289,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__10Ω_9,10Ω 9.xlsx,1,0,ESC-10ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,289,test,1,50.0,1,40.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,1,0,ESC-1ohm,9.9,289,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,289,test,1,50.0,1,40.1,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,289,test,1,150.0,1,140.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,289,test,1,75.0,1,65.0,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_14,normal 14.xlsx,0,0,,,289,test,1,75.0,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_14_difficult,normal 14 difficult.xlsx,0,1,,,289,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,289,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,289,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,0,,,289,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,0,1,,,289,test,0,,0,,ResCompact_HGB_ET_GlobalET_PhysicsGate_accuracy_only

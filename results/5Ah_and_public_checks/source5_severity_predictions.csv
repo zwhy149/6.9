@@ -1,0 +1,21 @@
+﻿sample_id,file_name,severity_name,severity_ord,pred_ord,pred_name
+source5__DT__0.01ohm6_charge,0.01ohm6_charge.xlsx,ESC-0.01ohm,3,3,ESC-0.01ohm
+source5__DT__0.01Ω_70SOC_-_Y,0.01Ω_70SOC - Y.xlsx,ESC-0.01ohm,3,1,ESC-1ohm
+source5__DT__0.1Ω_70SOC_-_1,0.1Ω_70SOC - 1.xlsx,ESC-0.1ohm,2,1,ESC-1ohm
+source5__DT__0.1Ω_70SOC_-_2,0.1Ω_70SOC - 2.xlsx,ESC-0.1ohm,2,1,ESC-1ohm
+source5__DT__0soc_1ohm1_charge,0soc 1ohm1_charge.xlsx,ESC-1ohm,1,1,ESC-1ohm
+source5__DT__10ohm3_charge,10ohm3_charge.xlsx,ESC-10ohm,0,0,ESC-10ohm
+source5__DT__10ohm8_charge,10ohm8_charge.xlsx,ESC-10ohm,0,0,ESC-10ohm
+source5__DT__10Ω_30SOC_-3,10Ω_30SOC -3.xlsx,ESC-10ohm,0,0,ESC-10ohm
+source5__DT__10Ω_30SOC_-Y,10Ω_30SOC -Y.xlsx,ESC-10ohm,0,0,ESC-10ohm
+source5__DT__10Ω_70SOC_-2,10Ω_70SOC -2.xlsx,ESC-10ohm,0,0,ESC-10ohm
+source5__DT__1ohm8_charge,1ohm8_charge.xlsx,ESC-1ohm,1,1,ESC-1ohm
+source5__DT__1Ω_7,1Ω 7.xlsx,ESC-1ohm,1,1,ESC-1ohm
+source5__DT__1Ω15,1Ω15.xlsx,ESC-1ohm,1,1,ESC-1ohm
+source5__DT__1Ω16,1Ω16.xlsx,ESC-1ohm,1,1,ESC-1ohm
+source5__DT__1Ω17,1Ω17.xlsx,ESC-1ohm,1,1,ESC-1ohm
+source5__GZ__0.01Ω_5,0.01Ω_5.xlsx,ESC-0.01ohm,3,3,ESC-0.01ohm
+source5__GZ__0.1Ω_8,0.1Ω_8.xlsx,ESC-0.1ohm,2,2,ESC-0.1ohm
+source5__GZ__0.1Ω_99,0.1Ω_99.xlsx,ESC-0.1ohm,2,2,ESC-0.1ohm
+source5__GZ__10Ω_Y,10Ω_Y.xlsx,ESC-10ohm,0,0,ESC-10ohm
+source5__GZ__1Ω_5,1Ω_5.xlsx,ESC-1ohm,1,1,ESC-1ohm

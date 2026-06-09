@@ -1,0 +1,21 @@
+﻿sample_id,file_name,severity_name,severity_ord,pred_ord,pred_name
+target100__大电池短路数据__0.01ohmcc3,0.01ohmcc3.xlsx,ESC-0.01ohm,3,3,ESC-0.01ohm
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,ESC-0.01ohm,3,0,ESC-10ohm
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,ESC-0.1ohm,2,2,ESC-0.1ohm
+target100__大电池短路数据__0.1Ω_2_difficult,0.1Ω 2 difficult.xlsx,ESC-0.1ohm,2,2,ESC-0.1ohm
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,ESC-0.1ohm,2,2,ESC-0.1ohm
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,ESC-0.1ohm,2,1,ESC-1ohm
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,ESC-0.1ohm,2,2,ESC-0.1ohm
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,ESC-0.1ohm,2,1,ESC-1ohm
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,ESC-0.1ohm,2,2,ESC-0.1ohm
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,ESC-10ohm,0,0,ESC-10ohm
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,ESC-10ohm,0,0,ESC-10ohm
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,ESC-10ohm,0,0,ESC-10ohm
+target100__大电池短路数据__10Ω_2,10Ω 2.xlsx,ESC-10ohm,0,0,ESC-10ohm
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,ESC-10ohm,0,0,ESC-10ohm
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,ESC-1ohm,1,1,ESC-1ohm
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,ESC-1ohm,1,1,ESC-1ohm
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,ESC-1ohm,1,0,ESC-10ohm
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,ESC-1ohm,1,1,ESC-1ohm
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,ESC-1ohm,1,1,ESC-1ohm
+target100__大电池短路数据__1Ω_6_difficult,1Ω 6 difficult.xlsx,ESC-1ohm,1,1,ESC-1ohm

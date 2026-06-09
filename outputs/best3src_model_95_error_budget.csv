@@ -1,0 +1,2 @@
+﻿total_test_rows_across_seeds,current_errors,current_accuracy,max_errors_allowed_for_95,errors_to_remove_for_95,minimum_high_frequency_files_to_fix_for_95_oracle
+782,45,0.9424552429667519,39,6,1

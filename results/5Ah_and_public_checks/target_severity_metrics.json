@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.8,
+  "balanced_accuracy": 0.761904761904762,
+  "macro_f1": 0.7756410256410257,
+  "ordinal_mae": 0.3,
+  "n_test_fault_files": 20
+}

@@ -1,0 +1,25 @@
+﻿sample_id,file_name,domain,y_true,y_pred,hard_negative,onset_s,alarm_time_s,delay_s,max_score,mean_score,model
+source5__DT__0.01ohm6_charge,0.01ohm6_charge.xlsx,source5,1,1,0,9.8,243.0,233.2,1.0,-0.8407079646017699,Source5_ET_holdout
+source5__DT__0.01Ω_70SOC_-_Y,0.01Ω_70SOC - Y.xlsx,source5,1,1,0,87.5999999999993,87.9999999999993,0.4000000000000057,1.0,-0.12599596158789017,Source5_ET_holdout
+source5__DT__0.1Ω_70SOC_-_1,0.1Ω_70SOC - 1.xlsx,source5,1,1,0,76.8999999999999,77.9999999999998,1.0999999999998948,0.9836117295166257,-0.45419243960910577,Source5_ET_holdout
+source5__DT__0.1Ω_70SOC_-_2,0.1Ω_70SOC - 2.xlsx,source5,1,1,0,120.899999999997,122.999999999997,2.1000000000000085,0.9778961614988197,-0.046641905382422126,Source5_ET_holdout
+source5__DT__0soc_1ohm1_charge,0soc 1ohm1_charge.xlsx,source5,1,1,0,10.0,48.0,38.0,1.0,-0.6193246959487434,Source5_ET_holdout
+source5__DT__10ohm3_charge,10ohm3_charge.xlsx,source5,1,1,0,10.0,53.0,43.0,1.0,0.3739576164044547,Source5_ET_holdout
+source5__DT__10ohm8_charge,10ohm8_charge.xlsx,source5,1,1,0,9.8,88.0,78.2,0.9966125021887585,-0.9133840210799965,Source5_ET_holdout
+source5__DT__10Ω_30SOC_-3,10Ω_30SOC -3.xlsx,source5,1,1,0,146.9,53.0,0.0,0.9924474539735244,0.6159062581547516,Source5_ET_holdout
+source5__DT__10Ω_30SOC_-Y,10Ω_30SOC -Y.xlsx,source5,1,1,0,90.2,48.0,0.0,0.9947967504365651,0.444300154557171,Source5_ET_holdout
+source5__DT__10Ω_70SOC_-2,10Ω_70SOC -2.xlsx,source5,1,1,0,217.0,108.0,0.0,0.9921987838836166,0.21924277880698592,Source5_ET_holdout
+source5__DT__1ohm8_charge,1ohm8_charge.xlsx,source5,1,1,0,10.0,48.0,38.0,0.9967232502842964,-0.912669331318299,Source5_ET_holdout
+source5__DT__1Ω15,1Ω15.xlsx,source5,1,1,0,66.5000000000005,47.9000000000004,0.0,0.9739690902234112,0.17146702022731966,Source5_ET_holdout
+source5__DT__1Ω16,1Ω16.xlsx,source5,1,1,0,81.4999999999996,82.9999999999996,1.5,0.9336184207780002,0.13766776850245727,Source5_ET_holdout
+source5__DT__1Ω17,1Ω17.xlsx,source5,1,1,0,100.199999999999,102.999999999998,2.7999999999990024,0.9757923229976395,0.17076957778699273,Source5_ET_holdout
+source5__DT__1Ω_7,1Ω 7.xlsx,source5,1,1,0,10.0,53.0,43.0,0.9950848754264446,-0.9295401899640294,Source5_ET_holdout
+source5__GZ__0.01Ω_5,0.01Ω_5.xlsx,source5,1,1,0,301.0,303.0,2.0,1.0,-0.021277563739113804,Source5_ET_holdout
+source5__GZ__0.1Ω_8,0.1Ω_8.xlsx,source5,1,1,0,301.0,303.0,2.0,1.0,-0.8034934577332083,Source5_ET_holdout
+source5__GZ__0.1Ω_99,0.1Ω_99.xlsx,source5,1,1,0,301.0,303.0,2.0,1.0,-0.611570413975594,Source5_ET_holdout
+source5__GZ__10Ω_Y,10Ω_Y.xlsx,source5,1,1,0,300.0,303.0,3.0,0.9887232502842964,-0.9654364079880786,Source5_ET_holdout
+source5__GZ__1Ω_5,1Ω_5.xlsx,source5,1,1,0,301.0,303.0,2.0,0.998,-0.9109247558975493,Source5_ET_holdout
+source5__Normal__Normal,Normal.xlsx,source5,0,1,0,,58.0,,0.9850100699559915,0.5830794686550081,Source5_ET_holdout
+source5__Normal__Normal_8,Normal_8.xlsx,source5,0,0,0,,,,-1.0,-1.0,Source5_ET_holdout
+source5__Normal__Normal_d13,Normal_d13.xlsx,source5,0,1,1,,77.9999999999998,,0.942995203938787,0.20594299741900907,Source5_ET_holdout
+source5__Normal__Normal_d8,Normal_d8.xlsx,source5,0,0,1,,,,-1.0,-1.0,Source5_ET_holdout
