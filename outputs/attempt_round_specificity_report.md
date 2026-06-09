@@ -6,6 +6,7 @@
 - The best valid specificity-oriented alternative in this round is NP max/conformal calibration: specificity 0.8844, but accuracy falls to 0.9278 and recall to 0.9394.
 - The current validation-selected model remains the best main-result operating point: accuracy 0.9438, specificity 0.8678, recall 0.9657.
 - A dual-evidence local veto looked promising in a test-oracle screen, but strict validation-only selection chose no veto for all seeds; it therefore cannot be claimed as a valid improvement.
+- A physically constrained point-set prototype veto was also tested. It selected no valid veto rule and reverted to the base detector, showing that the hard negatives are not reliably closer to the available normal prototypes in pure-voltage feature space.
 
 ## Literature-Grounded Transfer Interpretation
 - Search date: 2026-06-09.
@@ -18,6 +19,7 @@
 - NP q90 calibration (valid 30-seed alternative): accuracy 0.9345, specificity 0.8733, recall 0.9517.
 - NP max/conformal calibration (valid 30-seed alternative): accuracy 0.9278, specificity 0.8844, recall 0.9394.
 - Dual evidence veto (valid 30-seed rejected): accuracy 0.9425, specificity 0.8622, recall 0.9657.
+- Point-set prototype veto (valid 30-seed rejected): accuracy 0.9438, specificity 0.8678, recall 0.9657.
 - Smooth counterfactual negatives (10-seed screen rejected): accuracy 0.9164, specificity 0.7667, recall 0.9623.
 - Severity multiclass joint head (10-seed screen rejected): accuracy 0.9122, specificity 0.7233, recall 0.9670.
 - Haar wavelet transient energy (10-seed screen rejected): accuracy 0.9283, specificity 0.8133, recall 0.9625.
@@ -25,6 +27,7 @@
 ## Technical Interpretation
 - NP/conformal calibration is publication-defensible as a secondary high-specificity operating point because it explicitly controls false alarms from validation normal samples.
 - The strict dual-evidence veto audit rejects the test-oracle improvement. Because validation selection chose the no-veto rule in every seed, reporting the oracle grid as a final method would be leakage/cherry-picking.
+- The point-set prototype veto is closer to recent metric-gated transfer-learning ideas, but the physically interpretable constraint (normal_margin >= 0 or normal_ratio <= 1) selected no rule. An unconstrained negative-margin diagnostic is not publication-defensible and is not used.
 - Smooth counterfactual negative augmentation did not help; feature-space augmentation made the prefix model less stable.
 - Severity multiclass joint learning did not help; normal/fault separation is still dominated by trend-like normal files.
 - Haar wavelet features did not help on this dataset; smooth normal trend and weak short-circuit signatures overlap in the pure-voltage feature space.

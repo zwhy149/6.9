@@ -41,6 +41,9 @@ def build_table() -> pd.DataFrame:
     add_row(rows, "NP max/conformal calibration", conf.accuracy_mean, conf.accuracy_std, conf.specificity_mean, conf.specificity_std, conf.recall_mean, conf.recall_std, "valid 30-seed alternative")
     dual = pd.read_csv(OUT / "dual_evidence_veto_summary.csv").iloc[0]
     add_row(rows, "Dual evidence veto", dual.accuracy_mean, dual.accuracy_std, dual.specificity_mean, dual.specificity_std, dual.recall_mean, dual.recall_std, "valid 30-seed rejected")
+    point = pd.read_csv(OUT / "pointset_veto_summary_phys.csv")
+    point = point[point["model"].astype(str) == "PointSetPrototypeVeto_ValidationSelected"].iloc[0]
+    add_row(rows, "Point-set prototype veto", point.accuracy_mean, point.accuracy_std, point.specificity_mean, point.specificity_std, point.recall_mean, point.recall_std, "valid 30-seed rejected")
 
     smooth = pd.read_csv(OUT / "fast_prefix_summary_smoothcf_et30_10seed.csv").iloc[0]
     add_row(rows, "Smooth counterfactual negatives", smooth.accuracy_mean, smooth.accuracy_std, smooth.specificity_mean, smooth.specificity_std, smooth.recall_mean, smooth.recall_std, "10-seed screen rejected")
@@ -84,6 +87,7 @@ def write_report(table: pd.DataFrame) -> None:
         "- The best valid specificity-oriented alternative in this round is NP max/conformal calibration: specificity 0.8844, but accuracy falls to 0.9278 and recall to 0.9394.",
         "- The current validation-selected model remains the best main-result operating point: accuracy 0.9438, specificity 0.8678, recall 0.9657.",
         "- A dual-evidence local veto looked promising in a test-oracle screen, but strict validation-only selection chose no veto for all seeds; it therefore cannot be claimed as a valid improvement.",
+        "- A physically constrained point-set prototype veto was also tested. It selected no valid veto rule and reverted to the base detector, showing that the hard negatives are not reliably closer to the available normal prototypes in pure-voltage feature space.",
         "",
         "## Literature-Grounded Transfer Interpretation",
         "- Search date: 2026-06-09.",
@@ -103,6 +107,7 @@ def write_report(table: pd.DataFrame) -> None:
             "## Technical Interpretation",
             "- NP/conformal calibration is publication-defensible as a secondary high-specificity operating point because it explicitly controls false alarms from validation normal samples.",
             "- The strict dual-evidence veto audit rejects the test-oracle improvement. Because validation selection chose the no-veto rule in every seed, reporting the oracle grid as a final method would be leakage/cherry-picking.",
+            "- The point-set prototype veto is closer to recent metric-gated transfer-learning ideas, but the physically interpretable constraint (normal_margin >= 0 or normal_ratio <= 1) selected no rule. An unconstrained negative-margin diagnostic is not publication-defensible and is not used.",
             "- Smooth counterfactual negative augmentation did not help; feature-space augmentation made the prefix model less stable.",
             "- Severity multiclass joint learning did not help; normal/fault separation is still dominated by trend-like normal files.",
             "- Haar wavelet features did not help on this dataset; smooth normal trend and weak short-circuit signatures overlap in the pure-voltage feature space.",
