@@ -1,0 +1,32 @@
+﻿sample_id,file_name,hard_negative,n_test_appearances,false_positives,fp_rate_when_tested
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,9,7,0.7777777777777778
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,4,4,1.0
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,1,4,4,1.0
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,5,2,0.4
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,11,2,0.18181818181818182
+target100__大电池短路数据__normal_14,normal 14.xlsx,0,2,1,0.5
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,1,4,1,0.25
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,1,5,1,0.2
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,1,7,1,0.14285714285714285
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,4,0,0.0
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,1,4,0,0.0
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,7,0,0.0
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,7,0,0.0
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,1,7,0,0.0
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,6,0,0.0
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,1,6,0,0.0
+target100__大电池短路数据__normal_14_difficult,normal 14 difficult.xlsx,1,2,0,0.0
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,5,0,0.0
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,1,5,0,0.0
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,7,0,0.0
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,1,9,0,0.0
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,1,11,0,0.0
+target100__大电池短路数据__normal_5,normal 5.xlsx,0,3,0,0.0
+target100__大电池短路数据__normal_5_difficult,normal 5 difficult.xlsx,1,3,0,0.0
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,4,0,0.0
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,4,0,0.0
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,1,4,0,0.0
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,5,0,0.0
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,1,5,0,0.0
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,7,0,0.0
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,1,7,0,0.0

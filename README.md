@@ -26,6 +26,12 @@ The latest conservative validation-selector refinement is:
 
 The current voltage-only 100Ah grouped protocol still does **not** support a 95%, 97%, or 98% binary-accuracy claim. Across 782 repeated test appearances, the original best model makes 45 errors; a 95% claim allows at most 39 errors. The conservative selector removes only one net repeated-test error.
 
+## Specificity target audit
+
+The requested `specificity >= 0.94` target is not supported by the current valid voltage-only protocol. The conservative selector reaches `specificity = 0.8678 +/- 0.1410` as cross-seed standard deviation. A post-hoc verifier threshold can force `specificity = 0.9422`, but then accuracy drops to `0.8939` and recall to `0.8801`, so it is only a feasibility diagnostic, not a valid final detector.
+
+For uncertainty reporting, `accuracy = 0.9438 +/- 0.0071` is defensible only if the `+/-` value is explicitly labeled as SEM over 30 repeated splits. It is not the cross-seed standard deviation. Specificity SEM remains `0.0257` because each test split contains only 5-6 normal files; one false positive changes a seed's specificity by roughly 0.14-0.20.
+
 ## Directory layout
 
 - `code/final_pipeline`: scripts used for the adopted final detector, validation-selected gate audit, error budget, and final report/figure generation.
@@ -33,6 +39,7 @@ The current voltage-only 100Ah grouped protocol still does **not** support a 95%
 - `code/original_pipeline`: earlier end-to-end pipeline retained for provenance.
 - `results/strict_100Ah`: final 30-seed strict grouped 100Ah CSV results.
 - `results/5Ah_and_public_checks`: earlier 5Ah and public locked-check outputs.
+- `results/specificity_target_audit`: specificity target feasibility audit, post-hoc trade-off table, false-positive frequency, and uncertainty table.
 - `figures/paper_main`: main paper/reviewer figures.
 - `figures/diagnostics`: diagnostic public/hard-case figures.
 - `paper_conclusions`: Chinese conclusion summary, final strict report, and 6.9 refinement update.

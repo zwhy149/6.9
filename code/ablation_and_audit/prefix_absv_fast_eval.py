@@ -12,14 +12,17 @@ from sklearn.metrics import confusion_matrix
 from repeated_seed_eval import duplicate_group_name, stratified_target_split
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(r"C:\Users\wmy\Documents\Codex\2026-06-05\in-app-browser-the-user-has")
 OUT = ROOT / "outputs"
 WORK = ROOT / "work"
-HORIZONS = (50, 75, 100, 150, 250, 400)
+HORIZONS = tuple(int(float(x)) for x in os.environ.get("FAST_HORIZONS", "50,75,100,150,250,400").split(",") if x.strip())
 PREFIX_CACHE_TAG = os.environ.get("FAST_PREFIX_CACHE_TAG", "rescompact_absv_v1")
 OUTPUT_SUFFIX = os.environ.get("FAST_OUTPUT_SUFFIX", PREFIX_CACHE_TAG)
 MODEL_KIND = os.environ.get("FAST_MODEL", "et").lower()
 TREE_N = int(os.environ.get("FAST_TREE_N", "45"))
+SOURCE_WEIGHT = float(os.environ.get("FAST_SOURCE_WEIGHT", "0.65"))
+TARGET_NORMAL_WEIGHT = float(os.environ.get("FAST_TARGET_NORMAL_WEIGHT", "1.15"))
+HARD_NEG_WEIGHT = float(os.environ.get("FAST_HARD_NEG_WEIGHT", "3.0"))
 
 
 META_COLS = {
@@ -96,10 +99,10 @@ def fit_horizon(table: pd.DataFrame, feature_cols: list[str], train_ids: set[str
     domain = train["domain"].astype(str).to_numpy()
     hard = train["hard_negative"].astype(int).to_numpy()
     weight = np.ones(len(train), dtype=float)
-    weight[domain == "source5"] *= 0.65
+    weight[domain == "source5"] *= SOURCE_WEIGHT
     weight[domain != "source5"] *= 1.4
-    weight[(y == 0) & (hard == 1)] *= 3.0
-    weight[y == 0] *= 1.15
+    weight[(domain != "source5") & (y == 0)] *= TARGET_NORMAL_WEIGHT
+    weight[(y == 0) & (hard == 1)] *= HARD_NEG_WEIGHT
     if MODEL_KIND == "rf":
         model = RandomForestClassifier(
             n_estimators=TREE_N,
