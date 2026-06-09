@@ -39,11 +39,20 @@ def build_table() -> pd.DataFrame:
     add_row(rows, "NP q90 calibration", q90.accuracy_mean, q90.accuracy_std, q90.specificity_mean, q90.specificity_std, q90.recall_mean, q90.recall_std, "valid 30-seed alternative")
     conf = np_summary[np_summary["variant"].astype(str).str.startswith("conformal")].iloc[0]
     add_row(rows, "NP max/conformal calibration", conf.accuracy_mean, conf.accuracy_std, conf.specificity_mean, conf.specificity_std, conf.recall_mean, conf.recall_std, "valid 30-seed alternative")
+    margin_family = pd.read_csv(OUT / "np_margin_family_summary.csv")
+    q95_safe = margin_family[margin_family["variant"].astype(str) == "q95_alpha0.05_add0.050"].iloc[0]
+    add_row(rows, "NP q95 + 0.05 safety margin", q95_safe.accuracy_mean, q95_safe.accuracy_std, q95_safe.specificity_mean, q95_safe.specificity_std, q95_safe.recall_mean, q95_safe.recall_std, "valid 30-seed high-specificity")
+    max_safe = margin_family[margin_family["variant"].astype(str) == "max_alpha0.05_add0.050"].iloc[0]
+    add_row(rows, "NP max + 0.05 safety margin", max_safe.accuracy_mean, max_safe.accuracy_std, max_safe.specificity_mean, max_safe.specificity_std, max_safe.recall_mean, max_safe.recall_std, "valid 30-seed high-specificity")
+    max_high = margin_family[margin_family["variant"].astype(str) == "max_alpha0.05_add0.080"].iloc[0]
+    add_row(rows, "NP max + 0.08 safety margin", max_high.accuracy_mean, max_high.accuracy_std, max_high.specificity_mean, max_high.specificity_std, max_high.recall_mean, max_high.recall_std, "valid 30-seed highest-specificity")
     dual = pd.read_csv(OUT / "dual_evidence_veto_summary.csv").iloc[0]
     add_row(rows, "Dual evidence veto", dual.accuracy_mean, dual.accuracy_std, dual.specificity_mean, dual.specificity_std, dual.recall_mean, dual.recall_std, "valid 30-seed rejected")
     point = pd.read_csv(OUT / "pointset_veto_summary_phys.csv")
     point = point[point["model"].astype(str) == "PointSetPrototypeVeto_ValidationSelected"].iloc[0]
     add_row(rows, "Point-set prototype veto", point.accuracy_mean, point.accuracy_std, point.specificity_mean, point.specificity_std, point.recall_mean, point.recall_std, "valid 30-seed rejected")
+    normheavy = pd.read_csv(OUT / "fast_prefix_summary_normheavy_et45_10seed.csv").iloc[0]
+    add_row(rows, "Target-normal heavy training", normheavy.accuracy_mean, normheavy.accuracy_std, normheavy.specificity_mean, normheavy.specificity_std, normheavy.recall_mean, normheavy.recall_std, "10-seed screen rejected")
 
     smooth = pd.read_csv(OUT / "fast_prefix_summary_smoothcf_et30_10seed.csv").iloc[0]
     add_row(rows, "Smooth counterfactual negatives", smooth.accuracy_mean, smooth.accuracy_std, smooth.specificity_mean, smooth.specificity_std, smooth.recall_mean, smooth.recall_std, "10-seed screen rejected")
@@ -84,7 +93,9 @@ def write_report(table: pd.DataFrame) -> None:
         "## Outcome",
         "- 5Ah source-domain accuracy has been improved to 0.9644 using validation-only ET/RF model-pool selection.",
         "- 100Ah specificity has not reached 0.91-0.95 under a valid duplicate-aware protocol.",
-        "- The best valid specificity-oriented alternative in this round is NP max/conformal calibration: specificity 0.8844, but accuracy falls to 0.9278 and recall to 0.9394.",
+        "- The best high-specificity operating point with accuracy above 0.91 is NP max + 0.05 safety margin: accuracy 0.9149, specificity 0.9200, recall 0.9132.",
+        "- A less conservative high-specificity point is NP q95 + 0.05 safety margin: accuracy 0.9189, specificity 0.9144, recall 0.9202.",
+        "- The highest-specificity point tested is NP max + 0.08 safety margin: specificity 0.9333, but accuracy drops to 0.8908 and recall to 0.8789.",
         "- The current validation-selected model remains the best main-result operating point: accuracy 0.9438, specificity 0.8678, recall 0.9657.",
         "- A dual-evidence local veto looked promising in a test-oracle screen, but strict validation-only selection chose no veto for all seeds; it therefore cannot be claimed as a valid improvement.",
         "- A physically constrained point-set prototype veto was also tested. It selected no valid veto rule and reverted to the base detector, showing that the hard negatives are not reliably closer to the available normal prototypes in pure-voltage feature space.",
@@ -106,14 +117,17 @@ def write_report(table: pd.DataFrame) -> None:
             "",
             "## Technical Interpretation",
             "- NP/conformal calibration is publication-defensible as a secondary high-specificity operating point because it explicitly controls false alarms from validation normal samples.",
+            "- The safety-margin family is valid as an operating-point family because every margin is computed from validation-normal scores plus a fixed, predeclared additive margin; the full family must be reported to avoid cherry-picking.",
             "- The strict dual-evidence veto audit rejects the test-oracle improvement. Because validation selection chose the no-veto rule in every seed, reporting the oracle grid as a final method would be leakage/cherry-picking.",
             "- The point-set prototype veto is closer to recent metric-gated transfer-learning ideas, but the physically interpretable constraint (normal_margin >= 0 or normal_ratio <= 1) selected no rule. An unconstrained negative-margin diagnostic is not publication-defensible and is not used.",
             "- Smooth counterfactual negative augmentation did not help; feature-space augmentation made the prefix model less stable.",
             "- Severity multiclass joint learning did not help; normal/fault separation is still dominated by trend-like normal files.",
             "- Haar wavelet features did not help on this dataset; smooth normal trend and weak short-circuit signatures overlap in the pure-voltage feature space.",
+            "- Target-normal heavy training did not help; the 10-seed screen reduced specificity to 0.6500.",
             "",
             "## Next Scientifically Defensible Step",
-            "- To reach specificity above 0.91 without lowering recall, the evidence points to needing more independent normal/hard-negative 100Ah samples or additional observables. Pure reweighting and feature augmentation have not produced a stable 0.91+ specificity result.",
+            "- The paper can now report two explicit operating points: a high-recall detector (accuracy 0.9438, specificity 0.8678, recall 0.9657) and a false-alarm-control detector (accuracy 0.9149, specificity 0.9200, recall 0.9132).",
+            "- To reach specificity above 0.91 without lowering recall, the evidence still points to needing more independent normal/hard-negative 100Ah samples or additional observables.",
         ]
     )
     (OUT / "attempt_round_specificity_report.md").write_text("\n".join(lines), encoding="utf-8")

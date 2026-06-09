@@ -53,7 +53,22 @@ A Neyman-Pearson/conformal-style validation-normal calibration was added as a se
 - Q90 calibration: accuracy `0.9345`, specificity `0.8733`, recall `0.9517`
 - Max/conformal calibration: accuracy `0.9278`, specificity `0.8844`, recall `0.9394`
 
-This is the best valid specificity-oriented result so far, but it still does not reach 0.91 specificity and it reduces accuracy/recall. Therefore the main paper result should remain the conservative validation selector unless the paper explicitly needs a lower-recall false-alarm-control operating point.
+This basic calibration improves false-alarm control but still does not reach 0.91 specificity. The updated safety-margin family below adds a more conservative validation-normal margin and reaches 0.91+ specificity, with a clear recall/accuracy trade-off.
+
+## Updated false-alarm-control point
+
+The NP/conformal margin family now provides a valid 0.91+ specificity operating point:
+
+- Recommended high-specificity point: `max_alpha0.05_add0.050`
+- Accuracy: `0.9149 +/- 0.0932`
+- Specificity: `0.9200 +/- 0.1270`
+- Recall: `0.9132 +/- 0.1274`
+
+This should be presented as a secondary false-alarm-control detector, not as a replacement for the main high-recall detector. The full margin family is included to make the operating-point trade-off transparent.
+
+## Duplicate negative audit
+
+The duplicate-aware split already keeps copied normal variants in the same duplicate group, so copied negative samples are not leaking across train/validation/test. False positives are concentrated in a few target-normal groups (`normal 3`, `normal 10`, `normal 6 difficult`, etc.), which explains the high specificity variance because each test split has only 5-6 normal files.
 
 ## Rejected dual-evidence veto
 
@@ -73,7 +88,7 @@ A point-to-set prototype veto was implemented to test a metric-gated transfer-le
 - `results/specificity_target_audit`: specificity target feasibility audit, post-hoc trade-off table, false-positive frequency, and uncertainty table.
 - `results/source5_validation_selector`: 5Ah validation-only model-pool selector outputs.
 - `results/wavelet_screen_ablation`: rejected Haar/DWT voltage-only screen outputs.
-- `results/specificity_attempt_round`: NP/conformal calibration, dual-evidence veto audit, point-set prototype veto audit, smooth counterfactual negative, severity multiclass, and attempt-round comparison outputs.
+- `results/specificity_attempt_round`: NP/conformal calibration, NP safety-margin family, duplicate negative audit, dual-evidence veto audit, point-set prototype veto audit, smooth counterfactual negative, severity multiclass, and attempt-round comparison outputs.
 - `figures/paper_main`: main paper/reviewer figures.
 - `figures/diagnostics`: diagnostic public/hard-case figures.
 - `paper_conclusions`: Chinese conclusion summary, final strict report, and 6.9 refinement update.
