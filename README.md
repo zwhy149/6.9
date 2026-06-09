@@ -4,7 +4,7 @@ This repository snapshot contains the code, strict results, reviewer-facing conc
 
 ## Main conclusion
 
-Under the strict duplicate-aware grouped repeated-split protocol, the best verified 100Ah voltage-only detector is:
+Under the strict duplicate-aware grouped repeated-split protocol, the best verified 100Ah voltage-only detector before this refinement was:
 
 - Model: `HGB+ET+GlobalET ensemble`
 - Accuracy: `0.9425 +/- 0.0404`
@@ -14,7 +14,17 @@ Under the strict duplicate-aware grouped repeated-split protocol, the best verif
 - Mean median detection delay: `42.52 s`
 - Mean p95 detection delay: `107.83 s`
 
-The current voltage-only 100Ah grouped protocol does **not** support a 95%, 97%, or 98% binary-accuracy claim. Across 782 repeated test appearances, the best model makes 45 errors; a 95% claim allows at most 39 errors, so the result is short by 6 repeated-test errors.
+The latest conservative validation-selector refinement is:
+
+- Model: `ValidationSelected_ModelPool`, conservative margin `0.05`, excluding the unstable `specificity_first` candidate
+- Accuracy: `0.9438 +/- 0.0389`
+- F1: `0.9638`
+- Recall: `0.9657`
+- Specificity: `0.8678`
+- Mean median detection delay: `42.52 s`
+- Mean p95 detection delay: `110.67 s`
+
+The current voltage-only 100Ah grouped protocol still does **not** support a 95%, 97%, or 98% binary-accuracy claim. Across 782 repeated test appearances, the original best model makes 45 errors; a 95% claim allows at most 39 errors. The conservative selector removes only one net repeated-test error.
 
 ## Directory layout
 
@@ -25,13 +35,13 @@ The current voltage-only 100Ah grouped protocol does **not** support a 95%, 97%,
 - `results/5Ah_and_public_checks`: earlier 5Ah and public locked-check outputs.
 - `figures/paper_main`: main paper/reviewer figures.
 - `figures/diagnostics`: diagnostic public/hard-case figures.
-- `paper_conclusions`: Chinese conclusion summary and final strict report.
+- `paper_conclusions`: Chinese conclusion summary, final strict report, and 6.9 refinement update.
 - `data_index`: local data locations, split rules, and what was intentionally not uploaded.
 - `reproduce`: PowerShell commands for rerunning the final strict pipeline.
 
 ## Academic-use warning
 
-Do not report the 100Ah strict result as 95% or higher. That would require leakage, cherry-picked seeds, or a weaker split. The correct reviewer-facing result is `0.9425 +/- 0.0404` under voltage-only, duplicate-aware grouped repeated testing.
+Do not report the 100Ah strict result as 95% or higher. That would require leakage, cherry-picked seeds, or a weaker split. The correct reviewer-facing result after the latest conservative refinement is `0.9438 +/- 0.0389` under voltage-only, duplicate-aware grouped repeated testing.
 
 ## Key references
 

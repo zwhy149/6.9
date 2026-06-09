@@ -1,0 +1,783 @@
+﻿sample_id,file_name,binary,hard_negative,severity_name,onset_s,seed,split,base_pred,base_alarm_time_s,base_alarm_score,y_pred,alarm_time_s,vetoed,et_fault_prob,normal_distance_score,delay_s,model
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,0,test,1,75.0,0.6390054363506736,1,75.0,0,0.5575724599636687,1.678060447809742,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,0,test,1,50.0,0.962487186655484,1,50.0,0,0.9316417757627602,1.4978709298073343,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_4,0.01Ω 4.xlsx,1,0,ESC-0.01ohm,10.0,0,test,1,250.0,0.6509359295362871,1,250.0,0,0.7507671556073625,1.9781530623683519,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,50.0,0.9769980783550576,1,50.0,0,0.8754728190422452,0.6144946934003197,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,50.0,0.9939636128277768,1,50.0,0,0.8955656697007823,0.5432692360911073,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,50.0,0.9995318532818532,1,50.0,0,0.8902288393869701,0.5923411865745302,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,50.0,0.9995318532818532,1,50.0,0,0.8981720348094536,0.5633631694791112,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,150.0,0.5659433091810581,1,150.0,0,0.6660920372699153,1.1579974701109965,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,0,test,1,75.0,0.7131670377156641,1,75.0,0,0.6979818892239473,0.3027655187869302,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,0,test,1,50.0,0.9975297892983652,1,50.0,0,0.8991926794644426,0.4934445548268157,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,0,test,1,50.0,0.9975297892983652,1,50.0,0,0.8914913383360775,0.5142393388817176,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,0,test,1,50.0,0.9975297892983652,1,50.0,0,0.8920170022861094,0.5662077196103318,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1,10Ω 1.xlsx,1,0,ESC-10ohm,10.0,0,test,1,75.0,0.757447777747487,1,75.0,0,0.6244853956319032,0.31260210369531855,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,1,0,ESC-10ohm,10.0,0,test,1,75.0,0.6400614272909492,1,75.0,0,0.6132903118269547,1.5799308891225552,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,1,0,ESC-1ohm,9.9,0,test,1,50.0,0.9995318532818532,1,50.0,0,0.9092917477411399,0.4576350514798762,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,0,test,1,50.0,0.9995318532818532,1,50.0,0,0.9170529850485277,0.4674787415656107,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_5,1Ω 5.xlsx,1,0,ESC-1ohm,10.0,0,test,1,100.0,0.6954378933886481,1,100.0,0,0.6657986916168878,0.2969344471776044,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_5_difficult,1Ω 5 difficult.xlsx,1,0,ESC-1ohm,10.0,0,test,1,75.0,0.8578780691208984,1,75.0,0,0.8423724989662713,1.3704311173473334,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,0,test,1,250.0,0.5541962459398848,1,250.0,0,0.6788305589095325,0.330746406501334,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,0,test,1,75.0,0.6129911682585572,1,75.0,0,0.6751613163838612,2.186683674410607,70.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,0,test,0,,,0,,0,0.4017241809307986,0.5978484753095064,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,0,test,0,,,0,,0,0.061324389956134644,1.1486773863451327,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,0,test,0,,,0,,0,0.37534032022354813,0.5203820178524285,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,0,test,0,,,0,,0,0.09315818405314914,1.1687363870705294,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,0,test,0,,,0,,0,0.46847771644452935,1.2604424524740918,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,0,test,0,,,0,,0,0.024273682435151486,2.389370190021477,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc7,0.01ohmcc7.xlsx,1,0,ESC-0.01ohm,10.0,4,test,1,50.0,0.9981792452830188,1,50.0,0,0.8993715684675728,0.4775842406827056,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,4,test,1,50.0,0.6613354161594066,1,50.0,0,0.6810067628881533,0.4174265201815863,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,4,test,1,50.0,0.9375532330219803,1,50.0,0,0.9551290230113983,1.5099234310215772,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,0.9786022931867716,1,50.0,0,0.8935803928146125,0.6648143235478136,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,1.0,1,50.0,0,0.9125545416512514,0.5521344385263556,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,150.0,0.7396255087249011,1,150.0,0,0.7073943320231834,1.0486709383716661,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,4,test,1,50.0,0.911818282856349,1,50.0,0,0.9085143385722382,1.681338897256184,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,1.0,1,50.0,0,0.9125545416512514,0.5521344385263556,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,1.0,1,50.0,0,0.9153547473299497,0.5502045785071067,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,4,test,1,50.0,0.9981792452830188,1,50.0,0,0.8818120136845076,0.5864773313922945,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,4,test,1,50.0,1.0,1,50.0,0,0.9098528373571725,0.49623737576278637,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,4,test,1,50.0,0.9981792452830188,1,50.0,0,0.9010156417663792,0.5167322188889979,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,4,test,1,50.0,0.9981792452830188,1,50.0,0,0.9025900490162853,0.5685105640062007,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,4,test,1,50.0,0.9384305228474826,1,50.0,0,0.7729696620817873,0.3815921177260919,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,4,test,1,50.0,0.9496002137759412,1,50.0,0,0.8822049324562254,1.5622011671373253,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,1,0,ESC-1ohm,9.9,4,test,1,50.0,0.9981792452830188,1,50.0,0,0.8943031208339799,0.46354085867174216,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc9,1ohmcc9.xlsx,1,0,ESC-1ohm,9.7,4,test,1,50.0,0.9981792452830188,1,50.0,0,0.8764914520408218,0.4792073626675191,40.3,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,4,test,1,150.0,0.7526136312163553,1,150.0,0,0.6709273635907725,0.8499432442778535,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,4,test,1,50.0,0.9269627250640636,1,50.0,0,0.8376289895197779,0.5652573615872465,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_5,1Ω 5.xlsx,1,0,ESC-1ohm,10.0,4,test,1,250.0,0.7014554290524982,1,250.0,0,0.7171932130782566,0.5615411925452992,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_5_difficult,1Ω 5 difficult.xlsx,1,0,ESC-1ohm,10.0,4,test,1,50.0,0.8882819573370618,1,50.0,0,0.8755802904311418,1.3737951820615057,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,0,,,4,test,0,,,0,,0,0.5632760145870099,1.3859594662611607,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,4,test,0,,,0,,0,0.30654177531447674,0.5245246423989611,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,4,test,0,,,0,,0,0.08856549774292036,1.2516870954131418,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,4,test,0,,,0,,0,0.38557762938566326,0.3788784840847391,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,0,1,,,4,test,0,,,0,,0,0.5878888580918612,2.131828598426193,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc4,0.01ohmcc4.xlsx,1,0,ESC-0.01ohm,10.0,7,test,1,50.0,0.9992776946107784,1,50.0,0,0.9307663681964635,0.4617749659237986,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,7,test,1,100.0,0.7889652553909704,1,100.0,0,0.5761908977615683,1.565422722767457,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,7,test,1,50.0,0.9792795903469762,1,50.0,0,0.8501083040457417,1.4840123158525136,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,0.9932150846972838,1,50.0,0,0.9277070540847389,0.5786781720083799,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,0.9932150846972838,1,50.0,0,0.9152070205978543,0.6575157449867917,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,0.9985273058082901,1,50.0,0,0.8995933927406741,0.534947582035461,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_8,0.1ohm cc 8.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,0.9992776946107784,1,50.0,0,0.9294375870171968,0.4513765781558391,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,250.0,0.6424840877791357,1,250.0,0,0.7491216072749555,1.0251543287190503,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,75.0,0.8591043845306258,1,75.0,0,0.8587458248071211,2.4528632783034614,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,7,test,1,50.0,0.9992776946107784,1,50.0,0,0.9294375870171968,0.4513765781558391,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,7,test,1,50.0,0.9982989927852206,1,50.0,0,0.9238865285818851,0.48356792579147645,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1,10Ω 1.xlsx,1,0,ESC-10ohm,10.0,7,test,0,,,0,,0,0.6215484038479412,1.1788195872491525,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,1,0,ESC-10ohm,10.0,7,test,1,100.0,0.6263752187700066,1,100.0,0,0.5944306639222743,1.4044550205797124,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_2,10Ω 2.xlsx,1,0,ESC-10ohm,10.0,7,test,1,75.0,0.7726116064430865,1,75.0,0,0.7032566380999177,0.27447917651785436,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_2_difficult,10Ω 2 difficult.xlsx,1,0,ESC-10ohm,10.0,7,test,1,100.0,0.6174441400972985,1,100.0,0,0.5753123900188838,1.4200023800629489,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,7,test,1,75.0,0.808327478334223,1,75.0,0,0.6814437229552939,0.2719390665240828,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,7,test,1,50.0,0.9992776946107784,1,50.0,0,0.9378445730904098,0.45772559991969697,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc5,1ohmcc5.xlsx,1,0,ESC-1ohm,9.8,7,test,1,50.0,0.9992776946107784,1,50.0,0,0.9263904561123408,0.45991654814630123,40.2,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc9,1ohmcc9.xlsx,1,0,ESC-1ohm,9.7,7,test,1,50.0,0.9992776946107784,1,50.0,0,0.9310295281412085,0.47435485795041477,40.3,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,7,test,1,250.0,0.5894243267926683,1,250.0,0,0.6216891110594018,0.33558550088331923,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,7,test,1,150.0,0.7176720329668262,1,150.0,0,0.5388727503856034,1.5029265910988086,145.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,7,test,0,,,0,,0,0.46141967553291807,0.6242835642255281,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,7,test,0,,,0,,0,0.1106523405021621,1.1792361597302736,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,7,test,0,,,0,,0,0.362226500104493,1.7875126114980677,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,7,test,0,,,0,,0,0.07071393061082595,1.6621493023473402,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,7,test,0,,,0,,0,0.5044228165165136,1.232774942802848,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,7,test,0,,,0,,0,0.009934905556804114,2.321379756736659,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc9,0.01ohmcc9.xlsx,1,0,ESC-0.01ohm,9.9,20,test,1,50.0,0.9828820795756968,1,50.0,0,0.8881779577520945,0.47774614793248515,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,20,test,1,50.0,0.6536156453538802,1,50.0,0,0.6601327079752217,0.40647593642936036,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,20,test,1,50.0,0.9812693561247017,1,50.0,0,0.9491525799105467,1.4940906384532666,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,0.9917489328778684,1,50.0,0,0.8852141289977783,0.5426833129653759,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,0.9990193924266109,1,50.0,0,0.9075358375673703,0.5377669900370323,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,0.9923353529719166,1,50.0,0,0.8758738760506695,0.5776778448632517,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,0.9990193924266109,1,50.0,0,0.901617336721918,0.652157549223029,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,0.707357038791912,1,50.0,0,0.6350506705772353,0.4381501964828586,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,20,test,1,50.0,0.9974735176535428,1,50.0,0,0.8853160131729343,0.45427241916558064,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,20,test,1,50.0,0.9990193924266109,1,50.0,0,0.8939728087083482,0.5155627864752,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1,10Ω 1.xlsx,1,0,ESC-10ohm,10.0,20,test,1,50.0,0.7618087500941548,1,50.0,0,0.6745347401029488,0.39005012813366874,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,1,0,ESC-10ohm,10.0,20,test,1,50.0,0.8918977668830751,1,50.0,0,0.7769937324871304,0.5439504099034967,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,20,test,1,50.0,0.7084305741199568,1,50.0,0,0.6826612636292969,0.43049386705415826,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,20,test,1,50.0,0.8377812283663202,1,50.0,0,0.7098117904774008,0.3773928188458726,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc2,1ohmcc2.xlsx,1,0,ESC-1ohm,10.0,20,test,1,50.0,0.9745750904598842,1,50.0,0,0.8872928171786114,0.48167906992526693,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,20,test,1,50.0,0.9994118110064293,1,50.0,0,0.9170714856843035,0.4623545586359961,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,20,test,1,50.0,0.9523849360907486,1,50.0,0,0.8857879239198121,0.5175378764058857,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,20,test,1,150.0,0.5761155813335264,1,150.0,0,0.579735535172132,0.6749870993524955,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,20,test,1,50.0,0.9059887608859709,1,50.0,0,0.7152329043408571,0.48810611063542525,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,20,test,0,,,0,,0,0.39228893189363606,0.5228264548569432,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,20,test,0,,,0,,0,0.08785661181889065,1.1461413060028791,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,20,test,0,,,0,,0,0.3293310168820321,0.5306520046278898,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,20,test,0,,,0,,0,0.11401612203585436,1.274816520469244,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,20,test,0,,,0,,0,0.5096719160041623,1.9448760397304237,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,20,test,1,50.0,0.5974413236071618,1,50.0,0,0.5145322036095535,0.5025803954947659,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc8,0.01ohmcc8.xlsx,1,0,ESC-0.01ohm,10.1,33,test,1,50.0,1.0,1,50.0,0,0.9225018482722895,0.48238539605405156,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,33,test,1,50.0,0.5822388871273205,1,50.0,0,0.6532669732434433,0.4521909044548931,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,33,test,1,50.0,0.9581910789581488,1,50.0,0,0.9171328431804902,1.5979769126619947,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,0.97,1,50.0,0,0.8340560164594987,0.6495490401319941,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,75.0,0.5761103732428882,1,75.0,0,0.4988619867332881,1.521177523432004,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,0.9927985074626866,1,50.0,0,0.8839456320821414,0.6424907345694222,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,0.8890391979557086,1,50.0,0,0.8767880484216022,1.435389228238283,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,0.8070104585584549,1,50.0,0,0.7059728043577268,0.42256526999914074,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,0.8349928476489521,1,50.0,0,0.8236932639523169,1.10207061992759,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,0.7022242248903483,1,50.0,0,0.6725590567027685,0.46722067838579556,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,33,test,1,50.0,0.7924048842877369,1,50.0,0,0.6762414700744602,0.43035274898230086,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,33,test,1,50.0,1.0,1,50.0,0,0.8992017643139086,0.5420852367953075,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_5,10ohm cc 5.xlsx,1,0,ESC-10ohm,10.2,33,test,1,50.0,1.0,1,50.0,0,0.8842475726150641,0.5608568820656626,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,33,test,1,50.0,0.7554876973588455,1,50.0,0,0.708166732034826,0.47730010530131034,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,33,test,0,,,0,,0,0.32635333252143084,1.7683726875497394,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,33,test,1,50.0,0.7425682113075344,1,50.0,0,0.7034439806585495,0.46126107374510367,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,33,test,1,50.0,0.9422965210185535,1,50.0,0,0.7998063043844016,0.517946048931682,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,33,test,1,50.0,1.0,1,50.0,0,0.915214731357061,0.4918339810158401,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,33,test,1,250.0,0.7093191275199993,1,250.0,0,0.6914434464078798,1.3228306771044935,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,33,test,1,50.0,0.7493993823522851,1,50.0,0,0.7106297433640117,0.6017860266553797,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,33,test,1,50.0,0.55179443788433,1,50.0,0,0.6803415993581375,0.4589635140380596,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,33,test,1,50.0,0.873526977511771,1,50.0,0,0.7111890280565514,1.885334526410034,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,0,,,33,test,0,,,0,,0,0.5394412858858721,1.3974400165074932,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,0,1,,,33,test,0,,,0,,0,0.44855163440778156,2.329924631215419,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,0,,,33,test,0,,,0,,0,0.3643765525626889,1.7506475322866406,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,0,1,,,33,test,1,50.0,0.8525354288683831,1,50.0,0,0.7466213649575792,0.5740058562388979,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,33,test,0,,,0,,0,0.46428731311342714,1.4832965067579642,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,33,test,0,,,0,,0,0.024778430872245023,2.8679063443676274,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc8,0.01ohmcc8.xlsx,1,0,ESC-0.01ohm,10.1,55,test,1,50.0,0.9969910403185664,1,50.0,0,0.935349998525936,0.4988462202463677,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,55,test,1,100.0,0.7795803913982277,1,100.0,0,0.5646212649510395,2.0590145611514945,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,55,test,1,50.0,0.9189586899385243,1,50.0,0,0.8654993317841075,1.6033269748972352,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,0.9754509011678941,1,50.0,0,0.9357867968764876,0.6757818981623289,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,0.9940306122448981,1,50.0,0,0.8988641797031893,0.5992191002126409,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,0.9754509011678941,1,50.0,0,0.9357867968764876,0.6757818981623289,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,0.9933522727272727,1,50.0,0,0.9176652647263087,0.6581784881448212,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,1.0,1,50.0,0,0.9170625304403343,0.7180533194345535,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,55,test,1,50.0,0.9940306122448981,1,50.0,0,0.8912309591834451,0.6378320508745801,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,55,test,1,50.0,0.9989808362369338,1,50.0,0,0.9113590244649706,0.5639917696046612,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,55,test,1,50.0,1.0,1,50.0,0,0.915462288939641,0.5423323180469323,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,55,test,1,50.0,0.9098674981568287,1,50.0,0,0.7077576100745505,0.4247418787140201,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,55,test,1,50.0,0.9152431009219544,1,50.0,0,0.804762628497957,1.6515381223919618,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,55,test,1,75.0,0.7186898964310561,1,75.0,0,0.6224030538984924,0.3301480726917585,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,55,test,1,50.0,0.9610631460658533,1,50.0,0,0.8657636918086651,0.5361313652127955,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,55,test,1,50.0,1.0,1,50.0,0,0.938477580696762,0.5142092184375442,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,55,test,1,150.0,0.6863758581809369,1,150.0,0,0.7413150130882158,0.9016746542573395,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,55,test,1,75.0,0.7797623613218183,1,75.0,0,0.7199735256172616,2.1437673886943593,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,55,test,0,,,0,,0,0.7582869038520648,1.4304029377100544,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,55,test,1,150.0,0.6330624303486087,1,150.0,0,0.5890635521821588,1.642497001159395,145.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,0,,,55,test,0,,,0,,0,0.6017075937083423,1.3946535431781995,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,0,1,,,55,test,0,,,0,,0,0.5208049015277783,2.3407315065597425,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,55,test,0,,,0,,0,0.3747925307434138,2.134659583226497,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,55,test,0,,,0,,0,0.11164379397535595,1.8395747358868413,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,0,,,55,test,0,,,0,,0,0.46726747420626863,1.6827429393301643,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,0,1,,,55,test,0,,,0,,0,0.11661750633126579,2.9448897065324977,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc7,0.01ohmcc7.xlsx,1,0,ESC-0.01ohm,10.0,69,test,1,50.0,0.9973018691685385,1,50.0,0,0.9486122430390596,0.4684122321809597,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,69,test,1,50.0,0.6576393693998406,1,50.0,0,0.6618983541883391,0.4017769358641638,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,69,test,1,50.0,0.8711858013181768,1,50.0,0,0.8446698474552883,1.4843424067149615,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,0.9906020056261647,1,50.0,0,0.9172206057314489,0.5372922904861439,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,0.999427990081724,1,50.0,0,0.9540444413024302,0.5504574571474067,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,0.996779759235051,1,50.0,0,0.9367297355557598,0.5751355546145744,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,0.7354193188609973,1,50.0,0,0.6266054244510224,0.4211361044153737,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,0.7590168025457191,1,50.0,0,0.691218650491514,0.38847164404420903,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,0.906332433915017,1,50.0,0,0.8020720746704365,0.9817304155341618,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,69,test,1,50.0,0.9693206553002112,1,50.0,0,0.9019413030917937,0.6019633060220371,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,0.9976900643116976,1,50.0,0,0.9363313973927602,0.4834111354058497,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,0.8976255365327204,1,50.0,0,0.7205651399722399,0.37277910584814605,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,0.8405707463071794,1,50.0,0,0.7885371218501488,1.5340687754085232,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,0.7383673179224624,1,50.0,0,0.7097561934388124,0.4260067521398725,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,69,test,0,,,0,,0,0.2803427994876637,1.5430920492550653,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,69,test,1,50.0,0.7196163139331659,1,50.0,0,0.7061959354286168,0.4127569528254261,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,69,test,1,50.0,0.9717750490336394,1,50.0,0,0.8728629367639809,0.4630077576714599,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,69,test,1,50.0,0.9973018691685385,1,50.0,0,0.941270343111556,0.4521563126939804,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,69,test,1,75.0,0.6044301304592573,1,75.0,0,0.6148504365682237,0.4971556053590625,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,69,test,1,50.0,0.8601270502433015,1,50.0,0,0.6573150033071086,0.48507448099983863,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,69,test,1,75.0,0.5785179162484864,1,75.0,0,0.5936748403285591,0.27476932612958305,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,69,test,1,75.0,0.5539801213373748,1,75.0,0,0.4613484338704879,1.2194687794281927,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,69,test,0,,,0,,0,0.05608446631798627,1.5879605590987111,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,0,,,69,test,0,,,0,,0,0.3305187069914362,1.5007431789143535,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,0,1,,,69,test,1,50.0,0.9368854092834514,1,50.0,0,0.8314502850605322,0.5026769476434877,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,0,,,69,test,0,,,0,,0,0.440973672506606,1.3875749596065454,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,0,1,,,69,test,0,,,0,,0,0.03265641939178367,2.3318200942040277,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc3,0.01ohmcc3.xlsx,1,0,ESC-0.01ohm,9.9,72,test,1,50.0,1.0,1,50.0,0,0.9095738417393343,0.5287456893386634,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,72,test,1,75.0,0.6769179136937084,1,75.0,0,0.5637554988784045,2.1596357614215145,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,72,test,1,50.0,0.9352673727718936,1,50.0,0,0.8676965003813373,1.6219208027920862,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,50.0,0.99,1,50.0,0,0.8336330459493281,0.6658385351991154,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,150.0,0.6109644565395387,1,150.0,0,0.5759514723593273,0.4535833104897917,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,50.0,0.9863886424134872,1,50.0,0,0.8744324925948915,0.6718279516620856,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,50.0,1.0,1,50.0,0,0.879520557614552,0.5954564507310267,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,72,test,1,75.0,0.6803958950599983,1,75.0,0,0.6256257874336874,0.3179395071850476,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,72,test,0,,,0,,0,0.41807383073628057,1.4214854355629827,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,72,test,1,50.0,1.0,1,50.0,0,0.8730310932582684,0.5513419862496544,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,72,test,1,50.0,1.0,1,50.0,0,0.8722282880256252,0.5645590832492203,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,72,test,1,75.0,0.7183987206119683,1,75.0,0,0.6537517339720988,0.30525305995261004,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,72,test,1,50.0,0.9252673727718936,1,50.0,0,0.8671876961176169,1.6722884609226185,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,72,test,1,75.0,0.7366618145934235,1,75.0,0,0.6001953044525737,0.2863220475335816,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,1,0,ESC-1ohm,9.9,72,test,1,50.0,1.0,1,50.0,0,0.9024907136607265,0.4933557272705251,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc5,1ohmcc5.xlsx,1,0,ESC-1ohm,9.8,72,test,1,50.0,1.0,1,50.0,0,0.9024907136607265,0.5055700037225009,40.2,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,72,test,1,250.0,0.633895676502314,1,250.0,0,0.6407277846903522,1.3274506870795764,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,72,test,1,75.0,0.7155285713567483,1,75.0,0,0.5531634326197205,1.7790257359448003,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,72,test,1,150.0,0.602694045016248,1,150.0,0,0.6427021681369326,0.6243362507230942,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,72,test,1,75.0,0.6737800642216172,1,75.0,0,0.5800221134912089,1.5788918518473398,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,72,test,0,,,0,,0,0.190771289366229,1.9954998975207408,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,72,test,1,150.0,0.7002518087869557,1,150.0,0,0.5876261020111523,0.9661359619781361,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,72,test,0,,,0,,0,0.18488756735335785,1.902763850899199,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,72,test,0,,,0,,0,0.38168121954091727,1.5450342821619856,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,72,test,0,,,0,,0,0.022660126931409567,2.9646748150658286,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc6,0.01ohmcc6.xlsx,1,0,ESC-0.01ohm,10.0,73,test,1,50.0,0.9771152464757116,1,50.0,0,0.8505174333449661,0.5087993712706375,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,73,test,1,50.0,0.7036590059587736,1,50.0,0,0.7337959339816393,0.40299886170404087,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,73,test,1,50.0,0.926839769071826,1,50.0,0,0.8589698706235064,1.4611965882424798,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,0.9912326173357746,1,50.0,0,0.9392892939197771,0.6491480170969214,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,0.9991509846827134,1,50.0,0,0.9221575531379145,0.5295422774387013,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,0.9991509846827134,1,50.0,0,0.9074569678495242,0.5739964594032014,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,75.0,0.6517756456532261,1,75.0,0,0.6938615573129403,0.9557149432922333,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,0.9115427536069468,1,50.0,0,0.8329729441372176,1.5421396627101558,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,0.995815358823016,1,50.0,0,0.9149467336323898,0.6044698536083636,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,73,test,1,50.0,0.987852817224545,1,50.0,0,0.9440140545227899,0.4461336235286886,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,73,test,1,50.0,0.9906074685193228,1,50.0,0,0.9185291704680209,0.5194563050497158,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,73,test,1,50.0,0.9976768205489748,1,50.0,0,0.9405447154213489,0.4814603613828152,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,73,test,1,50.0,0.9666988472150162,1,50.0,0,0.7868179052387491,0.367434479457298,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,73,test,1,50.0,0.9283271971922454,1,50.0,0,0.7970653390514933,1.5126771824703107,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,73,test,1,50.0,0.9245274317951538,1,50.0,0,0.8070759164505203,0.37376379569008356,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,73,test,1,50.0,0.9991509846827134,1,50.0,0,0.944895620195286,0.45608368532816457,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,73,test,1,50.0,0.9626428250747188,1,50.0,0,0.8698807318184941,0.5097441344524818,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,73,test,1,50.0,0.9985258358662614,1,50.0,0,0.945181674395606,0.44932632321110216,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,73,test,1,50.0,0.5997354535065953,1,50.0,0,0.471458747619996,0.5488955575986212,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,73,test,1,50.0,0.9108742866233396,1,50.0,0,0.8099833715586408,0.5627731140828897,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,0,,,73,test,1,50.0,0.5805084308086379,1,50.0,0,0.6331711492686453,0.523543738410677,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,0,1,,,73,test,0,,,0,,0,0.023136398185830895,2.1716490023737594,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,73,test,0,,,0,,0,0.5942259305878537,1.4207875305199154,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,73,test,1,50.0,0.5604865422971292,1,50.0,0,0.5718459565049365,0.5843828910965504,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,73,test,0,,,0,,0,0.43736597746779915,0.5522890178666238,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,73,test,0,,,0,,0,0.16344743535453554,1.250145911191352,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc1,0.01ohmcc1.xlsx,1,0,ESC-0.01ohm,10.1,88,test,1,50.0,0.9986054913294797,1,50.0,0,0.8973598606735353,0.5126977909247701,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,88,test,1,50.0,0.6825423053333838,1,50.0,0,0.6187049911926904,0.4449192292424665,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,88,test,1,50.0,0.8860895244768213,1,50.0,0,0.8666261965634228,1.566566372075876,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,0.7687167686867962,1,50.0,0,0.798557369990337,0.6249293789101376,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1.0,1,50.0,0,0.9397472579459205,0.6012671463315593,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_7,0.1ohm cc 7.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1.0,1,50.0,0,0.8875724772396749,0.5809439091998414,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,0.7687167686867962,1,50.0,0,0.798557369990337,0.6249293789101376,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,1.0,1,50.0,0,0.8875724772396749,0.5809439091998414,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,88,test,1,50.0,0.8209795117587166,1,50.0,0,0.7041573798093894,0.42963700956216644,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,88,test,1,50.0,0.9976754989676532,1,50.0,0,0.9268184590316731,0.5402993286913855,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,1.0,1,50.0,0,0.9329333686459271,0.5202026748649462,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,0.9326519073823634,1,50.0,0,0.720202087875775,0.4047766452306933,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,0.865768479207028,1,50.0,0,0.819838227945943,1.6164610248434041,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,0.7610438677807883,1,50.0,0,0.6994654489257601,0.47441286181098996,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,88,test,1,50.0,0.699916731505138,1,50.0,0,0.606965206990196,0.5206792821640437,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,88,test,1,250.0,0.811667025135101,1,250.0,0,0.7766659748333764,1.1030234010789337,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,0.8709163733157561,1,50.0,0,0.7543525214980386,0.5235273597283637,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_6,1Ω 6.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,0.9285273083681878,1,50.0,0,0.7344391612416448,0.3913733070116888,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_6_difficult,1Ω 6 difficult.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,0.8981381021037844,1,50.0,0,0.8417653617542993,2.0151175336187137,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_7,1Ω 7.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,0.7554350833259789,1,50.0,0,0.6878261857520725,0.4642766933390429,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_7_difficult,1Ω 7 difficult.xlsx,1,0,ESC-1ohm,10.0,88,test,1,50.0,0.932019139045726,1,50.0,0,0.8221247626756096,1.8883001250374438,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,88,test,0,,,0,,0,0.5670453731990402,0.7388523231144065,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_1,normal 1.xlsx,0,0,,,88,test,0,,,0,,0,0.7611350209676172,1.3984550331579046,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,88,test,0,,,0,,0,0.3580273080902346,0.394171565499142,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_1_difficult,normal 1 difficult.xlsx,0,1,,,88,test,1,250.0,0.7747926873640268,1,250.0,0,0.549029218602403,2.1661027297052993,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,88,test,0,,,0,,0,0.5993383288947272,2.0004762031645438,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,88,test,0,,,0,,0,0.10185349675090957,1.842675626050611,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,91,test,1,50.0,0.7856307551101328,1,50.0,0,0.6640056066109509,0.40802775947288983,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,91,test,1,50.0,0.9802219238776095,1,50.0,0,0.9108295849328454,1.4860983662344016,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_5,0.01Ω 5.xlsx,1,0,ESC-0.01ohm,10.0,91,test,1,50.0,0.7858016620701624,1,50.0,0,0.7515792441509241,0.43461369245601744,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,0.835661098824708,1,50.0,0,0.8309365319640896,0.5886363920296982,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,0.9995664481525627,1,50.0,0,0.9339856213673056,0.5580179627448665,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,150.0,0.6921958556240408,1,150.0,0,0.6182186395065611,1.0533955723297441,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,0.8931342637086643,1,50.0,0,0.8818652898444348,1.5586639572077359,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,0.8836211394479483,1,50.0,0,0.7563260613778008,0.43986989020542383,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,0.8190730886887345,1,50.0,0,0.7592900271929611,0.39882870663585784,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,91,test,1,50.0,0.9992049125580789,1,50.0,0,0.8872241246914434,0.5755552665805928,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,91,test,1,50.0,0.9986203404407626,1,50.0,0,0.9138711842326304,0.5130456246155868,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,91,test,1,50.0,0.9986203404407626,1,50.0,0,0.9023301724099417,0.5586784408200539,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,91,test,1,50.0,0.9986203404407626,1,50.0,0,0.9079888714553926,0.5203917251866349,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_9,10Ω 9.xlsx,1,0,ESC-10ohm,10.0,91,test,1,50.0,0.9011744418814414,1,50.0,0,0.754636433597508,0.37830497484050724,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,91,test,1,50.0,0.9995664481525627,1,50.0,0,0.9331321154304758,0.4642686355981041,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,91,test,1,50.0,0.9995664481525627,1,50.0,0,0.9245648656378168,0.4587753360143239,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,91,test,1,50.0,0.8353707193897274,1,50.0,0,0.7458404448924564,0.4716852262729295,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,91,test,1,150.0,0.5777826897987876,1,150.0,0,0.6541176578925424,0.6543323043554,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,91,test,1,50.0,0.7523714759073981,1,50.0,0,0.6769893291896912,0.48337751395929834,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,91,test,0,,,0,,0,0.4692232986956182,0.377416057843491,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_5,normal 5.xlsx,0,0,,,91,test,0,,,0,,0,0.3528055682343677,1.340962040716408,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_5_difficult,normal 5 difficult.xlsx,0,1,,,91,test,0,,,0,,0,0.1027803126885567,1.5212062841269773,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,91,test,0,,,0,,0,0.5350439130164408,1.2337168900417628,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,91,test,0,,,0,,0,0.06346421559739751,2.323730842908349,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc9,0.01ohmcc9.xlsx,1,0,ESC-0.01ohm,9.9,97,test,1,50.0,0.9994654788418708,1,50.0,0,0.9500552591973896,0.48524203252282677,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,97,test,1,50.0,0.5681383741428084,1,50.0,0,0.6103555058052421,0.40550019469762194,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,97,test,1,50.0,0.8987452014824564,1,50.0,0,0.8933344690421159,1.465709221325588,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,0.9994654788418708,1,50.0,0,0.9308181073370507,0.5541949032364798,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,0.9994654788418708,1,50.0,0,0.9290881327555651,0.582302372297404,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_2,0.1Ω 2.xlsx,1,0,ESC-0.1ohm,10.0,97,test,0,,,0,,0,0.7708350425438054,1.2314566012984747,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_2_difficult,0.1Ω 2 difficult.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,0.9146468408267188,1,50.0,0,0.931569976759613,1.7497781667630028,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,0.8023115411230103,1,50.0,0,0.6336786193955932,0.3913082567359389,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,0.8944913332193952,1,50.0,0,0.8232424318514704,0.9695429627753758,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,0.5778301272270719,1,50.0,0,0.5628900303150187,0.4376272535534518,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,97,test,1,50.0,0.9064910586341484,1,50.0,0,0.9267982059857142,1.6717450823790843,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,97,test,1,50.0,0.986314793910364,1,50.0,0,0.8916996912329304,0.5773885591849294,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,97,test,1,50.0,0.9994654788418708,1,50.0,0,0.9340167679374995,0.5138318881824874,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,97,test,1,50.0,0.9219909835337184,1,50.0,0,0.6571846930010463,0.3748897978446516,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,97,test,1,50.0,0.8998609454731159,1,50.0,0,0.8955879470908588,1.5215081358623646,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,97,test,1,50.0,0.6772219000315084,1,50.0,0,0.5962700192942716,0.42983317175857544,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,97,test,1,50.0,0.8436176441157864,1,50.0,0,0.6598296170518615,0.37495019692821346,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,97,test,1,50.0,0.9540422101088364,1,50.0,0,0.8178833098895766,0.4716476721474198,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,97,test,1,50.0,0.9994654788418708,1,50.0,0,0.9331905048514865,0.5294909683978894,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,97,test,1,50.0,0.6604050228299448,1,50.0,0,0.6515445416958848,0.3892290376530999,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,97,test,1,50.0,0.9540422101088364,1,50.0,0,0.8178833098895766,0.4716476721474198,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,97,test,0,,,0,,0,0.6238540292724541,1.4134968575059972,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,97,test,0,,,0,,0,0.19125259464613514,1.0940598114016789,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,0,,,97,test,0,,,0,,0,0.3621729282803398,1.4739066984561116,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,0,1,,,97,test,1,50.0,0.8793265152465137,1,50.0,0,0.7871306909222883,0.514777877506721,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,97,test,0,,,0,,0,0.41097937210158414,1.209117846635469,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,97,test,0,,,0,,0,0.04083584746443121,2.286225100760813,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc1,0.01ohmcc1.xlsx,1,0,ESC-0.01ohm,10.1,102,test,1,50.0,0.9886763342213956,1,50.0,0,0.902471258758471,0.4792354695589381,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,102,test,1,50.0,0.6444676805970593,1,50.0,0,0.6924154433353895,0.39982994147734546,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,102,test,1,50.0,0.9232825499715688,1,50.0,0,0.8962720904484586,1.4520778374130616,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,0.999487732542464,1,50.0,0,0.9296130141717344,0.5728368365278262,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,0.999487732542464,1,50.0,0,0.9446612187955377,0.545851952576786,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,0.9837200976876926,1,50.0,0,0.9322702430598226,0.6414715508598557,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_2,0.1Ω 2.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,0.6660944874747896,1,50.0,0,0.7005329047015141,0.4122272015130732,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_2_difficult,0.1Ω 2 difficult.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,0.9151816497800432,1,50.0,0,0.895051140149831,1.7105856193987028,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,0.8795487723793507,1,50.0,0,0.7054223805494801,0.4333340399788424,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,102,test,1,50.0,0.7884089510390093,1,50.0,0,0.669301707876362,0.38942884648086185,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,0.999487732542464,1,50.0,0,0.9360965474550295,0.4824768275123244,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,102,test,1,50.0,0.999487732542464,1,50.0,0,0.9277639370896943,0.5155283981269184,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_2,10Ω 2.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,0.8452840204604651,1,50.0,0,0.7012604080890668,0.3930020132683812,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_2_difficult,10Ω 2 difficult.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,0.8223987655454436,1,50.0,0,0.7002977461492181,0.5047982657200832,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,0.8838276070953646,1,50.0,0,0.6939861215743492,0.37252304370228695,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,102,test,1,50.0,0.8954909320301616,1,50.0,0,0.8238715915309037,1.5005081089374774,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,102,test,1,50.0,0.9965601516487816,1,50.0,0,0.9489551473904416,0.459479519814147,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,102,test,1,50.0,0.626085271272063,1,50.0,0,0.46680158075425526,0.5454653218424589,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,102,test,1,50.0,0.8431026264616507,1,50.0,0,0.7277589062220742,0.5542645013744505,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,102,test,1,50.0,0.5556065660981048,1,50.0,0,0.4314096301905805,0.49907353092497486,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,102,test,1,50.0,0.7856481507404692,1,50.0,0,0.7290981095847198,0.5364760685941129,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,102,test,1,75.0,0.5511328357200267,1,75.0,0,0.6626649398070859,0.2767449952620817,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,0,,,102,test,1,75.0,0.5589247662278692,1,75.0,0,0.6596776753043385,0.3013873551760547,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,0,1,,,102,test,0,,,0,,0,0.011912674547245587,2.170513280666047,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,102,test,0,,,0,,0,0.28969804267977267,0.5811434512319243,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,102,test,0,,,0,,0,0.06012015463457729,1.0709905344049049,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,102,test,0,,,0,,0,0.47020698026716246,0.38184734301064993,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc1,0.01ohmcc1.xlsx,1,0,ESC-0.01ohm,10.1,110,test,1,50.0,0.9886846543001688,1,50.0,0,0.9663406965094915,0.49577636362446764,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,110,test,1,100.0,0.714367820792507,1,100.0,0,0.4686563843589853,1.6361466904910227,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,110,test,1,50.0,0.9422160020696022,1,50.0,0,0.892299762843099,1.4992519723082274,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,50.0,0.9986846543001688,1,50.0,0,0.8387442380622617,0.598996802247117,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_8,0.1ohm cc 8.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,50.0,0.9986846543001688,1,50.0,0,0.9499881498369935,0.4648943955441195,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,75.0,0.7282262457276047,1,75.0,0,0.7302227393895261,0.31647093950074623,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,75.0,0.8331975218440185,1,75.0,0,0.914092134069442,2.486854286628457,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,150.0,0.6840330757589066,1,150.0,0,0.8193503623651812,0.664034319022371,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,110,test,1,50.0,0.9986846543001688,1,50.0,0,0.9499881498369935,0.4648943955441195,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,110,test,0,,,0,,0,0.3803241457513602,1.172426447372616,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,110,test,1,50.0,0.9986846543001688,1,50.0,0,0.9259778862504466,0.49532548008353156,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,110,test,1,50.0,0.9986846543001688,1,50.0,0,0.8897732834476825,0.5683872664409818,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,110,test,1,50.0,0.9986846543001688,1,50.0,0,0.9256285772546129,0.5173509002860076,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,110,test,1,75.0,0.7129999047869243,1,75.0,0,0.6768744185777349,0.3108357453698606,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,110,test,0,,,0,,0,0.28624635346049804,1.6060747379321079,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,110,test,1,50.0,0.9986846543001688,1,50.0,0,0.9493635569231836,0.4689829100003985,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,110,test,1,50.0,0.9986846543001688,1,50.0,0,0.9605798737070241,0.46560648685979067,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,110,test,1,50.0,0.9292628855926856,1,50.0,0,0.883889057989868,0.4814908294441584,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,110,test,0,,,0,,0,0.6400792609550089,1.0138515970530146,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,110,test,1,75.0,0.6912826537340574,1,75.0,0,0.5359875623679297,1.8909386046609575,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_14,normal 14.xlsx,0,0,,,110,test,0,,,0,,0,0.4689516775542008,0.42245315388670845,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_14_difficult,normal 14 difficult.xlsx,0,1,,,110,test,0,,,0,,0,0.09497551958049429,1.0395630491641115,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,110,test,0,,,0,,0,0.4752541002289403,1.9225278229159593,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,110,test,0,,,0,,0,0.09053783571107267,1.6182367459805944,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,110,test,0,,,0,,0,0.35867101818756747,1.283593239179148,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,110,test,0,,,0,,0,0.038430424133266874,2.4432446189144454,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,113,test,1,100.0,0.7753574797422851,1,100.0,0,0.596257153617542,1.6442614745351611,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,113,test,1,50.0,0.9668597835775204,1,50.0,0,0.9394295654297715,1.519983169752892,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_4,0.01Ω 4.xlsx,1,0,ESC-0.01ohm,10.0,113,test,1,150.0,0.5731695827741357,1,150.0,0,0.6746547992243344,1.2866864244670457,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,0.9906320875594248,1,50.0,0,0.874982086591021,0.6676627241258629,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,0.998582907231556,1,50.0,0,0.875619577305489,0.6202368119010971,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,0.998582907231556,1,50.0,0,0.9013975747776849,0.5544913386178127,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,0.998582907231556,1,50.0,0,0.9060464636024054,0.572624508867739,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,100.0,0.8120057596952738,1,100.0,0,0.7487259622863968,1.0320427972036812,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,113,test,1,50.0,0.9754505408720864,1,50.0,0,0.9103435993024538,1.7085206414431697,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,113,test,1,50.0,0.998582907231556,1,50.0,0,0.9013975747776849,0.5544913386178127,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,113,test,1,50.0,0.998582907231556,1,50.0,0,0.8936784831486708,0.4991222009631056,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_4,10ohm cc 4.xlsx,1,0,ESC-10ohm,10.3,113,test,1,50.0,0.998582907231556,1,50.0,0,0.8901005760400906,0.5339550470322741,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,113,test,1,50.0,0.998582907231556,1,50.0,0,0.8895031753486418,0.5222711126377813,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,113,test,1,50.0,0.998582907231556,1,50.0,0,0.8946777944101835,0.5243222548899684,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,113,test,1,50.0,0.9788519014163044,1,50.0,0,0.8631592595433439,0.5360378232693686,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,113,test,0,,,0,,0,0.699841856457973,1.0338526485054451,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,113,test,1,50.0,0.7975657861146819,1,50.0,0,0.7156367330811108,0.8891172343594006,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,113,test,0,,,0,,0,0.7262380846900315,1.4335780739758488,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,113,test,1,50.0,0.8751218022811642,1,50.0,0,0.768155357952827,1.8473559889545716,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,113,test,1,150.0,0.602735845929631,1,150.0,0,0.6642298821504127,0.6151367246475155,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,113,test,0,,,0,,0,0.7367894390371339,1.4275794819975356,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,113,test,0,,,0,,0,0.15095315789635724,1.1384606863692641,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,113,test,1,100.0,0.843099871399433,1,100.0,0,0.5749145527096265,1.2277110676185103,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,113,test,0,,,0,,0,0.3224221470429894,1.970600674885897,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,113,test,1,100.0,0.759581186958026,1,100.0,0,0.5608347374409959,1.1648631225238282,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,113,test,0,,,0,,0,0.09237511604109708,1.771868740638293,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc6,0.01ohmcc6.xlsx,1,0,ESC-0.01ohm,10.0,114,test,1,50.0,1.0,1,50.0,0,0.8921633469809753,0.5142931404942411,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,114,test,1,50.0,0.8405013011676765,1,50.0,0,0.6942920321527198,0.4069913598144841,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,114,test,1,50.0,0.9086686786061128,1,50.0,0,0.8512460209152863,1.4762589385603195,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,0.9831931760374718,1,50.0,0,0.9284064612517694,0.5786744036323723,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,0.9536740432014,1,50.0,0,0.9259814704840151,0.613252984871371,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,0.997722593585471,1,50.0,0,0.948907095462351,0.5349230921302413,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,114,test,0,,,0,,0,0.6064998853653991,1.198059334447959,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,0.9831931760374718,1,50.0,0,0.9284064612517694,0.5786744036323723,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,0.8515967530717267,1,50.0,0,0.8126665135813462,1.1630681070139934,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,114,test,1,50.0,0.9911355628687476,1,50.0,0,0.9052074454062211,0.6591586456758728,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_1,10ohm cc 1.xlsx,1,0,ESC-10ohm,10.0,114,test,1,50.0,0.997722593585471,1,50.0,0,0.9306545966076849,0.48620074637540994,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,114,test,1,50.0,0.9941181670582068,1,50.0,0,0.9328664987737808,0.5681400830744917,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,114,test,1,50.0,0.9153305064450162,1,50.0,0,0.6992370141961782,0.371589140032756,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,114,test,1,50.0,0.9007262917748372,1,50.0,0,0.78892034673841,1.5349221983236239,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,114,test,1,50.0,0.8163122976811243,1,50.0,0,0.6880765164853322,0.4280604535672913,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,114,test,1,100.0,0.6427024499687044,1,100.0,0,0.5931241439426801,0.2919526813139709,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,114,test,1,50.0,0.8198584289507541,1,50.0,0,0.754872187242337,0.5512037394594097,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,114,test,1,50.0,0.8398544568712726,1,50.0,0,0.5517184283160155,0.5688382043707817,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,114,test,1,75.0,0.7768906793205634,1,75.0,0,0.573626282216824,1.8268281321964073,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,114,test,1,250.0,0.570751175482165,1,250.0,0,0.6546430082429229,0.3372443017581111,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,114,test,1,50.0,0.8833215330352785,1,50.0,0,0.7458950488392092,1.799862200757855,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,114,test,1,100.0,0.6636893196618711,1,100.0,0,0.7197077150709311,0.242018412971571,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,114,test,0,,,0,,0,0.40960188061322184,0.6242864748304043,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,114,test,0,,,0,,0,0.08622776169639451,1.1142002134207702,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,114,test,0,,,0,,0,0.46847155906993876,0.5469495635121436,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,114,test,0,,,0,,0,0.10092433458722339,1.129612204802776,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,114,test,0,,,0,,0,0.3923499936015003,1.8829423485259464,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,114,test,0,,,0,,0,0.06885423814823045,1.5459261722531383,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,119,test,1,75.0,0.6872053137837394,1,75.0,0,0.5274392163155237,2.061972241142432,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,119,test,1,50.0,0.9466040293143244,1,50.0,0,0.893276996537962,1.607656752581066,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_5,0.01Ω 5.xlsx,1,0,ESC-0.01ohm,10.0,119,test,1,50.0,0.7003140418568493,1,50.0,0,0.6799884034940887,0.4766185079438105,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,50.0,1.0,1,50.0,0,0.9291911340270828,0.5932727386550213,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,250.0,0.6623438500548289,1,250.0,0,0.7060489482904552,1.1754604520319243,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,50.0,1.0,1,50.0,0,0.9427172096495545,0.6054650686511966,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,100.0,0.8803251321893346,1,100.0,0,0.7877225471828072,1.1590720629979485,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,119,test,1,50.0,0.9219264378408896,1,50.0,0,0.932971303671358,1.776244164995209,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,119,test,1,50.0,0.8201435700098189,1,50.0,0,0.6650894378448795,0.42296184707580825,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,119,test,0,,,0,,0,0.41037043074814883,1.341672822418694,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,119,test,1,50.0,1.0,1,50.0,0,0.9312297742618167,0.59272286425201,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,119,test,1,50.0,1.0,1,50.0,0,0.9312297742618167,0.5422667682638223,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,119,test,1,50.0,0.9339580042664156,1,50.0,0,0.7483134735684208,0.39850482062893844,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,119,test,1,50.0,0.9532026687701068,1,50.0,0,0.848321663561725,1.6593337889545052,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,119,test,1,50.0,0.8462550520077805,1,50.0,0,0.7129405499773528,0.4554872386848314,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,119,test,1,50.0,0.8927192940855931,1,50.0,0,0.7578355853465786,0.501795500013444,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc2,1ohmcc2.xlsx,1,0,ESC-1ohm,10.0,119,test,1,50.0,0.9969875776397517,1,50.0,0,0.8671634927692455,0.5155652742695938,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,119,test,1,50.0,1.0,1,50.0,0,0.9400179298778563,0.4893105905807137,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,119,test,1,50.0,0.9890367579676204,1,50.0,0,0.9210536511612064,0.4834257461442667,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,119,test,0,,,0,,0,0.3078266506363873,0.5414429870100502,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,119,test,0,,,0,,0,0.10537523612631906,1.262714927983156,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,119,test,1,75.0,0.7784680956822478,1,75.0,0,0.6024413742645399,1.4877538131575037,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,119,test,0,,,0,,0,0.45564791495595913,1.935645017752557,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,119,test,1,400.0,0.6049474560235605,1,400.0,0,0.7693325058583761,2.129031518089093,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,119,test,0,,,0,,0,0.5711570407910899,1.8404233427126198,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc3,0.01ohmcc3.xlsx,1,0,ESC-0.01ohm,9.9,130,test,1,50.0,0.9995685543964232,1,50.0,0,0.9434593430632424,0.4835408417350655,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,130,test,1,50.0,0.7606316636178228,1,50.0,0,0.6607058138300814,0.40701202352184174,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,130,test,1,50.0,0.955130549606271,1,50.0,0,0.9155783095510466,1.4861309084175218,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,0.9995685543964232,1,50.0,0,0.9222202759317266,0.5838180385879953,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,0.9282494199597803,1,50.0,0,0.8919312889458133,0.584562945312454,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,0.9975910953800298,1,50.0,0,0.917183955466119,0.5419111477310365,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,0.9964588459666875,1,50.0,0,0.9230163066570296,0.6045331775223991,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,100.0,0.6520371655447409,1,100.0,0,0.5857885929281295,1.1886537173541005,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,0.8343728112860223,1,50.0,0,0.8701720894163923,1.1805638734988149,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,130,test,1,50.0,0.9026963217364334,1,50.0,0,0.8103959804383402,0.38847624532666136,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,130,test,1,50.0,0.9970685543964233,1,50.0,0,0.9348162936375952,0.5588947818749496,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_5,10ohm cc 5.xlsx,1,0,ESC-10ohm,10.2,130,test,1,50.0,0.9980630941780144,1,50.0,0,0.9326423101654555,0.5240219331441018,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,130,test,1,50.0,0.9995685543964232,1,50.0,0,0.93862619745294,0.5088129482670376,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,130,test,1,50.0,0.9946617747354063,1,50.0,0,0.9348162936375952,0.511372661991664,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,130,test,1,50.0,0.990066041023993,1,50.0,0,0.9373781347563748,0.457114730339293,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,130,test,1,50.0,0.8223017323552272,1,50.0,0,0.7375327812647776,0.46798759904884346,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,130,test,1,250.0,0.6948359990527341,1,250.0,0,0.7016719307580311,1.0566275325255925,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,130,test,1,50.0,0.7968710565986575,1,50.0,0,0.6450245414698605,0.4846021113920199,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_5,1Ω 5.xlsx,1,0,ESC-1ohm,10.0,130,test,1,250.0,0.5908510605829542,1,250.0,0,0.5832571581805968,0.5579918291386984,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_5_difficult,1Ω 5 difficult.xlsx,1,0,ESC-1ohm,10.0,130,test,1,50.0,0.8661511847683486,1,50.0,0,0.8438766257613342,1.3661367227985466,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,130,test,0,,,0,,0,0.6196338564159268,1.4135196711411788,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,130,test,0,,,0,,0,0.13659554919174402,1.0670145573752368,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,130,test,0,,,0,,0,0.42329763830365075,0.3812859766264755,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,130,test,0,,,0,,0,0.40252305732519766,1.9056294444568804,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,130,test,0,,,0,,0,0.13480403485438378,1.5284142459275956,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc9,0.01ohmcc9.xlsx,1,0,ESC-0.01ohm,9.9,131,test,1,50.0,1.0,1,50.0,0,0.8836952021767527,0.4878435223113962,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,131,test,1,50.0,0.5666702212834731,1,50.0,0,0.6457529753182534,0.42092984792716454,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,131,test,1,50.0,0.977812745596496,1,50.0,0,0.896613491312721,1.534348924200646,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,0.9993056549749464,1,50.0,0,0.9183128126240228,0.6003535153795365,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,0.8674718736141043,1,50.0,0,0.6849539920870216,0.5941797539486078,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,0.7961905628387731,1,50.0,0,0.7292748578869903,0.3959220797295598,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,0.8629855360064527,1,50.0,0,0.8605330618421776,1.0339134172877769,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,0.9985719182124652,1,50.0,0,0.9131325999767184,0.6246816141278271,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,0.9993056549749464,1,50.0,0,0.8985730171832115,0.463354991620173,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,131,test,1,50.0,0.9985719182124652,1,50.0,0,0.8613763350902104,0.5941779207951218,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,131,test,1,50.0,0.9945369211514392,1,50.0,0,0.9012968705213223,0.5757153999476565,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_5,10ohm cc 5.xlsx,1,0,ESC-10ohm,10.2,131,test,1,50.0,0.9993056549749464,1,50.0,0,0.9012968705213223,0.5413609661140109,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,131,test,1,50.0,0.9993056549749464,1,50.0,0,0.9043148243067973,0.5212313183664856,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,131,test,1,50.0,0.7271113312431398,1,50.0,0,0.704561459399427,0.4425366599638455,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,131,test,0,,,0,,0,0.36903341027168246,1.6432569877061065,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,131,test,1,50.0,0.9993056549749464,1,50.0,0,0.9099054628319937,0.4703011663251737,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,1,0,ESC-1ohm,9.9,131,test,1,50.0,1.0,1,50.0,0,0.9064241117746582,0.46737989003017205,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,131,test,1,50.0,0.7370473862407105,1,50.0,0,0.7231636814925381,0.397867546573161,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,131,test,1,400.0,0.5924936141309524,1,400.0,0,0.7273072338959521,1.4356518778009841,390.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,131,test,1,50.0,0.8660585023123687,1,50.0,0,0.7147437112382752,1.8501318654155319,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,131,test,0,,,0,,0,0.36738070675212975,0.6212210551668871,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,131,test,0,,,0,,0,0.06673968239394934,1.1535155524648981,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,131,test,0,,,0,,0,0.6061606890657367,1.9660678108105245,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,131,test,0,,,0,,0,0.19977269253884286,1.6738882941194158,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,131,test,0,,,0,,0,0.46275835835553586,1.3182607949313125,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,131,test,0,,,0,,0,0.026026711247081426,2.525125981178516,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc7,0.01ohmcc7.xlsx,1,0,ESC-0.01ohm,10.0,145,test,1,50.0,1.0,1,50.0,0,0.9169607890053568,0.49916610769256825,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,145,test,1,50.0,0.5853745544745707,1,50.0,0,0.6646210430365806,0.4425124986811651,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,145,test,1,50.0,0.9326262035252896,1,50.0,0,0.9113877728513466,1.5424578415530585,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1.0,1,50.0,0,0.8683069757829996,0.639653919176761,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1.0,1,50.0,0,0.9248367554939323,0.5795699342786784,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,0.9920816326530612,1,50.0,0,0.9352168368886488,0.6288693625197347,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_cc,0.1Ω 5 cc.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,1.0,1,50.0,0,0.8683069757829996,0.639653919176761,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,0.9033611266450496,1,50.0,0,0.7386510567616104,0.4174526416843996,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,145,test,1,50.0,0.7885542432963177,1,50.0,0,0.6312322081497971,0.4279110058255538,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_2,10Ω 2.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,0.8819670529381739,1,50.0,0,0.7313816452945127,0.43904928159336937,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_2_difficult,10Ω 2 difficult.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,0.8785040283844313,1,50.0,0,0.7928654977813678,0.5522737367063167,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,0.9265631538635604,1,50.0,0,0.7497382564790559,0.40319281317114164,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,0.9273492710846324,1,50.0,0,0.9209581826737984,1.5929802249189577,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_7,10Ω 7.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,0.7802896966000056,1,50.0,0,0.557102629800958,0.5092609764416648,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_9,10Ω 9.xlsx,1,0,ESC-10ohm,10.0,145,test,1,50.0,0.905553745885094,1,50.0,0,0.7390059828213923,0.40271741093335306,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc5,1ohmcc5.xlsx,1,0,ESC-1ohm,9.8,145,test,1,50.0,1.0,1,50.0,0,0.9169111253169717,0.4895799794491628,40.2,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc8,1ohmcc8.xlsx,1,0,ESC-1ohm,9.9,145,test,1,50.0,1.0,1,50.0,0,0.9152281242641266,0.47926012753852176,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,145,test,1,250.0,0.6557399275942981,1,250.0,0,0.7200882338099447,0.6612284932315529,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,145,test,1,50.0,0.6995436202814861,1,50.0,0,0.6470532999042148,0.8668067361714377,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,145,test,1,150.0,0.6159649887209773,1,150.0,0,0.6646098949580119,0.5775296716678389,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,145,test,0,,,0,,0,0.39720334475609226,0.3878527269238897,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,145,test,1,75.0,0.6883460848936298,1,75.0,0,0.5623323189624606,1.3541650079897278,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,145,test,0,,,0,,0,0.2124754446283827,1.7565295842797253,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,145,test,1,150.0,0.6073270226748888,1,150.0,0,0.4687398079363225,0.8063584320412905,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,145,test,0,,,0,,0,0.3002799840391965,1.6723551262363017,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc10,0.01ohmcc10.xlsx,1,0,ESC-0.01ohm,10.0,160,test,1,50.0,0.9991826522101752,1,50.0,0,0.8922089776963182,0.46133325560488303,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,160,test,1,50.0,0.7125730671631818,1,50.0,0,0.6939156691910654,0.40520120498958395,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,160,test,1,50.0,0.9005567358668142,1,50.0,0,0.8995196621440988,1.4766497150557292,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,0.9991826522101752,1,50.0,0,0.909744850719735,0.5525351116651911,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_4,0.1ohm cc 4.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,0.9812151725353784,1,50.0,0,0.8553319946601685,0.6491291144072633,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,0.9991826522101752,1,50.0,0,0.909744850719735,0.5525351116651911,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,0.8506439036488141,1,50.0,0,0.7321409046575229,0.3828459279618936,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,160,test,1,50.0,0.9855504326509852,1,50.0,0,0.8848063034147973,0.533800345325996,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,160,test,0,,,0,,0,0.41166777152351564,1.0982524178262865,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,160,test,1,50.0,0.9947880333760944,1,50.0,0,0.8736640091212208,0.512365405495495,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1,10Ω 1.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,0.8342485184323476,1,50.0,0,0.7029885582620673,0.3881996865368805,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,0.9991826522101752,1,50.0,0,0.9085184450188002,0.48726763600348527,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_difficult,10Ω 1 difficult.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,0.8105073359482076,1,50.0,0,0.7132174766734454,0.5395417006596177,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,0.8809680976580475,1,50.0,0,0.7371352604729713,0.3720501183425591,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,160,test,1,50.0,0.9025892561920176,1,50.0,0,0.8378687139978254,1.5314828434622918,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,160,test,1,50.0,0.9991826522101752,1,50.0,0,0.8919144160969429,0.4607874834912321,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,160,test,1,50.0,0.985939408966932,1,50.0,0,0.8734978387742711,0.5137373559742199,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,1,0,ESC-1ohm,9.9,160,test,1,50.0,0.9991826522101752,1,50.0,0,0.8919144160969429,0.45686286446120156,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,160,test,1,100.0,0.6666136791492143,1,100.0,0,0.7036774792117986,0.23870041878593387,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,160,test,0,,,0,,0,0.4379281096124839,0.6004167847056544,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,160,test,0,,,0,,0,0.09144301806680269,1.100994705310128,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,160,test,0,,,0,,0,0.4591344053598499,0.5244514726400088,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,160,test,0,,,0,,0,0.09407329487855386,1.119663622927149,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,160,test,0,,,0,,0,0.3718770686913434,1.1997171444530683,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,160,test,0,,,0,,0,0.026143197933330885,2.3137184405441906,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc8,0.01ohmcc8.xlsx,1,0,ESC-0.01ohm,10.1,170,test,1,50.0,1.0,1,50.0,0,0.9245474117200926,0.4619009275639751,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,170,test,1,50.0,0.7459939654004164,1,50.0,0,0.7281565081035579,0.41517097072035375,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,170,test,1,50.0,0.9026773408404444,1,50.0,0,0.856586843064846,1.50534941789332,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,0.9953125,1,50.0,0,0.913169173199843,0.5828778673102031,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,0.8332142911311539,1,50.0,0,0.7469425299563941,0.4051849034043081,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,0.8913823685285098,1,50.0,0,0.8572190177365994,1.0092877482054603,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,1.0,1,50.0,0,0.9144769739484994,0.662328132938656,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,1.0,1,50.0,0,0.9381925906521281,0.5492557674733028,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,170,test,1,50.0,0.913216565332248,1,50.0,0,0.7603744210995326,0.3999704236388336,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,170,test,0,,,0,,0,0.4627744909831708,1.151121080888636,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,170,test,1,50.0,0.9911724137931034,1,50.0,0,0.9313988371083488,0.5188660433791602,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,170,test,1,50.0,0.9920987654320989,1,50.0,0,0.9252664348129606,0.5631692297356506,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,170,test,1,50.0,0.9264587000461758,1,50.0,0,0.7730969324802845,0.3869721201562571,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,170,test,1,50.0,0.8984627638391077,1,50.0,0,0.8481515109743695,1.5510879320326658,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,170,test,1,50.0,0.7793068971133907,1,50.0,0,0.7591222099093238,0.44274843992430934,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,170,test,0,,,0,,0,0.3303521869819612,1.6060489757388343,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,1,0,ESC-1ohm,9.9,170,test,1,50.0,1.0,1,50.0,0,0.9357002788321357,0.4624291461222843,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,170,test,1,50.0,1.0,1,50.0,0,0.9387206363407892,0.4731384832290119,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,170,test,1,250.0,0.6328627621425703,1,250.0,0,0.6363334655588359,1.305984823369356,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,170,test,1,50.0,0.8004626622157699,1,50.0,0,0.8461913705312915,0.5547758204105746,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_7,1Ω 7.xlsx,1,0,ESC-1ohm,10.0,170,test,1,50.0,0.8217808779972953,1,50.0,0,0.7676050631754121,0.43141199926160323,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_7_difficult,1Ω 7 difficult.xlsx,1,0,ESC-1ohm,10.0,170,test,1,50.0,0.9784798099762472,1,50.0,0,0.9276549012843688,1.7937704506203676,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,170,test,0,,,0,,0,0.5876305733879038,1.4183716109003508,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,170,test,0,,,0,,0,0.11277932568080343,1.0853689688036732,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,170,test,0,,,0,,0,0.34912000172232166,1.2640962096200854,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,170,test,0,,,0,,0,0.042338778183410516,2.3922257978264083,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9,normal 9.xlsx,0,0,,,170,test,0,,,0,,0,0.4279220840223284,1.2760405185956096,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_9_difficult,normal 9 difficult.xlsx,0,1,,,170,test,0,,,0,,0,0.040245427273086644,2.3799845351618605,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc6,0.01ohmcc6.xlsx,1,0,ESC-0.01ohm,10.0,188,test,1,50.0,0.9802793061089704,1,50.0,0,0.8577375357341219,0.557032428604152,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,188,test,1,75.0,0.7592829374748343,1,75.0,0,0.6007218703325674,2.0641963705933577,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,188,test,1,50.0,0.9878495678365756,1,50.0,0,0.9038014985530333,1.5952858975853552,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,0.9990383945809956,1,50.0,0,0.9139069744503121,0.602937312871299,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_0soc_cc,0.1Ω 0soc cc.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,0.9745776375446722,1,50.0,0,0.8569494862658484,0.6312135248233101,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_cc,0.1Ω 4 cc.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,0.9796961148598717,1,50.0,0,0.9081730455673847,0.7032952145941924,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,75.0,0.8240275735081605,1,75.0,0,0.7664644343792087,0.7295855477032205,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,0.9993601740002812,1,50.0,0,0.9148773214747936,0.5840277897594607,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7_cc,0.1Ω 7 cc.xlsx,1,0,ESC-0.1ohm,10.0,188,test,1,50.0,0.9990146280951959,1,50.0,0,0.911429840035814,0.582496201475322,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,188,test,1,50.0,0.9989544400166619,1,50.0,0,0.8896602695890833,0.5434183429273329,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,188,test,1,50.0,0.9988567819676183,1,50.0,0,0.8748381188105784,0.5914748239884757,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,188,test,1,50.0,0.999199676675437,1,50.0,0,0.8846185186289861,0.5401696288072665,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,188,test,1,50.0,0.9991176797237067,1,50.0,0,0.8960433771578168,0.5406289168860435,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,188,test,1,50.0,0.9744486712172065,1,50.0,0,0.8231725722500302,0.556489662875212,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc9,1ohmcc9.xlsx,1,0,ESC-1ohm,9.7,188,test,1,50.0,0.9987109989958585,1,50.0,0,0.9019846555287276,0.506978770659899,40.3,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,188,test,1,75.0,0.7703905330972035,1,75.0,0,0.6771955569464276,0.31483433309465225,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4,1Ω 4.xlsx,1,0,ESC-1ohm,10.0,188,test,1,250.0,0.5871575748245929,1,250.0,0,0.6165282677387439,0.6750626762986538,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_4_difficult,1Ω 4 difficult.xlsx,1,0,ESC-1ohm,10.0,188,test,1,75.0,0.7466230442464417,1,75.0,0,0.5860132363945763,2.0425734302816414,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,188,test,1,75.0,0.7246105789003304,1,75.0,0,0.6556576076402345,1.5848516420695962,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,188,test,0,,,0,,0,0.11233115253800957,2.1232858790430837,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,188,test,1,75.0,0.8145337697829028,1,75.0,0,0.5993836901633512,1.4990761997326054,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,188,test,0,,,0,,0,0.08532296830455063,1.9132997754084913,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,0,,,188,test,0,,,0,,0,0.43198126793950037,1.6426696044988816,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,0,1,,,188,test,0,,,0,,0,0.02493948929009084,2.8761287128343853,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc4,0.01ohmcc4.xlsx,1,0,ESC-0.01ohm,10.0,208,test,1,50.0,0.999769469660774,1,50.0,0,0.9580994043872443,0.47623612386855546,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,208,test,1,100.0,0.7630143290634254,1,100.0,0,0.49248038313061554,1.6274031541278065,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,208,test,1,75.0,0.7589660890785861,1,75.0,0,0.698342113951818,3.2655766946704583,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_1,0.1ohm cc 1.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,50.0,1.0,1,50.0,0,0.9466471361849403,0.5972786077031276,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,50.0,0.996226630546195,1,50.0,0,0.8992652741489577,0.5869073960516379,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,400.0,0.6175967179732117,1,400.0,0,0.5891458863161774,1.247580564461427,390.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,75.0,0.875386259497816,1,75.0,0,0.8340728436675517,2.755265034335078,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,75.0,0.6885250267485712,1,75.0,0,0.6735296570750272,0.3166896306168269,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,75.0,0.7776901736160236,1,75.0,0,0.8650973770527848,2.476610913558499,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,150.0,0.6596102268758275,1,150.0,0,0.6410701608840009,1.1655602527371947,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,208,test,1,75.0,0.7646310692425559,1,75.0,0,0.6742812050879613,0.3023485716437467,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,208,test,1,50.0,0.999769469660774,1,50.0,0,0.9313208021029648,0.5692312798808711,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,208,test,1,50.0,0.999769469660774,1,50.0,0,0.9345454018682772,0.5193912107955143,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,208,test,1,50.0,0.999769469660774,1,50.0,0,0.9337591888537978,0.5201864936025686,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,208,test,1,50.0,0.9320678322127555,1,50.0,0,0.7459952625756269,0.38382179139615447,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,208,test,1,75.0,0.7796893322533485,1,75.0,0,0.7547615468381986,2.1502711307109985,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,208,test,1,50.0,0.999769469660774,1,50.0,0,0.9549081837968533,0.47058071375444277,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc5,1ohmcc5.xlsx,1,0,ESC-1ohm,9.8,208,test,1,50.0,0.999769469660774,1,50.0,0,0.9549081837968533,0.47286637241638746,40.2,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,208,test,1,50.0,0.9827838729529551,1,50.0,0,0.9015574280787847,0.5339759440605989,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,208,test,1,150.0,0.6715071649523671,1,150.0,0,0.6888333822096531,0.6932153698850401,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,208,test,1,75.0,0.8417684592314796,1,75.0,0,0.6718325193730781,1.9119475586148558,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,0,,,208,test,1,400.0,0.5795528394296663,1,400.0,0,0.6245012306360006,0.5563197965935559,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,0,1,,,208,test,0,,,0,,0,0.061774933024138896,2.451694658174498,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,208,test,0,,,0,,0,0.5719089163675465,1.419708422097958,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,208,test,0,,,0,,0,0.13894776420210214,1.1198703028161747,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,208,test,0,,,0,,0,0.4469978668146973,1.9826588872993494,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,208,test,0,,,0,,0,0.12646040820887527,1.9467066513060576,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc9,0.01ohmcc9.xlsx,1,0,ESC-0.01ohm,9.9,240,test,1,50.0,0.9988695652173912,1,50.0,0,0.8854928924870141,0.49956771932508137,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,240,test,1,50.0,0.6266045724870927,1,50.0,0,0.6575145710024496,0.4385068486090643,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,240,test,1,50.0,0.9656239532168136,1,50.0,0,0.9063688482685328,1.5476217428265537,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,0.9988695652173912,1,50.0,0,0.870763229580984,0.5776803286322695,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,0.6295767156802838,1,50.0,0,0.6331968402437969,0.45581658295213634,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_cc,0.1Ω 1 cc.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,0.9920731707317072,1,50.0,0,0.9015415246165047,0.6239844694405107,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,0.6012218246927928,1,50.0,0,0.6844166691271354,0.4779881505947912,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,240,test,1,50.0,0.9159409229425785,1,50.0,0,0.9203902994499864,1.7063133930446355,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8,0.1Ω 8.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,0.8085723316681579,1,50.0,0,0.639002003382556,0.4205436674211035,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,240,test,1,50.0,0.9939823471722784,1,50.0,0,0.9042604185174536,0.4783060757139908,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,240,test,1,50.0,0.9988695652173912,1,50.0,0,0.8883799509822096,0.5289416268431429,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,240,test,1,50.0,0.9988695652173912,1,50.0,0,0.9115821304607206,0.5329759694075227,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,240,test,1,50.0,0.7303996209027394,1,50.0,0,0.6922987571600845,0.468904782268137,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_7,10Ω 7.xlsx,1,0,ESC-10ohm,10.0,240,test,1,50.0,0.7006396488197036,1,50.0,0,0.5184267404472654,0.5026310537462269,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,0.7081371342781222,1,50.0,0,0.7144550732101294,0.4131777606395388,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,0.8257934582040022,1,50.0,0,0.7132263851459236,0.48960927522731407,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_6,1Ω 6.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,0.9103782853906202,1,50.0,0,0.6958361168923178,0.38369567802304283,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_6_difficult,1Ω 6 difficult.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,0.9104622661644326,1,50.0,0,0.9010140909993474,1.979105860191932,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_7,1Ω 7.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,0.7933223387778966,1,50.0,0,0.6955328007255835,0.4575634871726771,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_7_difficult,1Ω 7 difficult.xlsx,1,0,ESC-1ohm,10.0,240,test,1,50.0,0.9934343434343432,1,50.0,0,0.9067322402552,1.8573861791335045,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,240,test,0,,,0,,0,0.31947387391157306,0.5324808701153046,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,240,test,0,,,0,,0,0.09004165529808865,1.2722889843809715,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,240,test,0,,,0,,0,0.5113937634882293,2.0288542315639986,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,240,test,0,,,0,,0,0.3722708545394438,1.645922501425431,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_5,normal 5.xlsx,0,0,,,240,test,0,,,0,,0,0.513785097116433,1.4698189442227794,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_5_difficult,normal 5 difficult.xlsx,0,1,,,240,test,0,,,0,,0,0.3827937959194059,1.654256308150224,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,244,test,1,50.0,0.7672267544156018,1,50.0,0,0.6856139708710991,0.43834569124596384,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,244,test,1,50.0,0.9396850914690252,1,50.0,0,0.8811391099853009,1.5729201139579798,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_5,0.01Ω 5.xlsx,1,0,ESC-0.01ohm,10.0,244,test,1,50.0,0.8803039021903856,1,50.0,0,0.7224665634351339,0.4665177792709685,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,0.8554494256719078,1,50.0,0,0.7685059337240315,0.6178531815693094,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,0.9955015903172096,1,50.0,0,0.8790050430498271,0.6120750738528998,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_cc,0.1Ω 3 cc.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,1.0,1,50.0,0,0.9116192889357609,0.5953307018173827,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,150.0,0.8013568183037104,1,150.0,0,0.7419100000682884,1.2283979229375923,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,0.8530521368275616,1,50.0,0,0.8877966120795678,1.6685674967716675,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6_cc,0.1Ω 6 cc.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,1.0,1,50.0,0,0.9125006030874026,0.5767568430930028,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,244,test,1,50.0,0.9503468046960404,1,50.0,0,0.7032551162043199,0.40732064486128844,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_2,10ohm cc 2.xlsx,1,0,ESC-10ohm,10.3,244,test,1,50.0,1.0,1,50.0,0,0.8797815645751239,0.5303820147294278,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,244,test,1,50.0,0.9955015903172096,1,50.0,0,0.8990859648826858,0.5330239793070047,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,244,test,1,50.0,0.95362826920247,1,50.0,0,0.6822338026147251,0.3931424501000432,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,244,test,1,50.0,0.9209108172702334,1,50.0,0,0.8427790507382751,1.6252392150041448,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,244,test,1,50.0,0.9388994462187225,1,50.0,0,0.7151057320273059,0.3978066111096123,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc3,1ohmcc3.xlsx,1,0,ESC-1ohm,9.9,244,test,1,50.0,0.9920491803278688,1,50.0,0,0.9100407600959333,0.48362111297969784,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc4,1ohmcc4.xlsx,1,0,ESC-1ohm,9.9,244,test,1,50.0,1.0,1,50.0,0,0.9125463999677147,0.4832630173302933,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc7,1ohmcc7.xlsx,1,0,ESC-1ohm,9.9,244,test,1,50.0,1.0,1,50.0,0,0.9073153579270379,0.48037013112024995,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,244,test,1,50.0,0.8346325903002135,1,50.0,0,0.7214317941137977,0.411894723174202,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11,normal 11.xlsx,0,0,,,244,test,0,,,0,,0,0.5884543047946226,1.4329877281528305,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_11_difficult,normal 11 difficult.xlsx,0,1,,,244,test,0,,,0,,0,0.11191624832137695,1.1806148442797189,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15,normal 15.xlsx,0,0,,,244,test,0,,,0,,0,0.32766169785030147,0.5476111388551539,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_15_difficult,normal 15 difficult.xlsx,0,1,,,244,test,0,,,0,,0,0.09799344318787949,1.3712346879090365,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3,normal 3.xlsx,0,0,,,244,test,1,75.0,0.7709953477747775,1,75.0,0,0.5905629629534915,1.438786588371617,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_3_difficult,normal 3 difficult.xlsx,0,1,,,244,test,0,,,0,,0,0.08750153901369134,1.878015710596906,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc1,0.01ohmcc1.xlsx,1,0,ESC-0.01ohm,10.1,261,test,1,50.0,0.9991378405645401,1,50.0,0,0.9385654060626567,0.49377247201084945,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,261,test,1,100.0,0.7624188282138703,1,100.0,0,0.565170125325957,1.6525033686457626,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,261,test,1,50.0,0.9206754787574423,1,50.0,0,0.8129503083089739,1.5099114332027848,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_2,0.1ohm cc 2.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,0.9923083817460548,1,50.0,0,0.9325708666567517,0.5506369871075774,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_3,0.1ohm cc 3.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,0.9992850222254316,1,50.0,0,0.951441950883996,0.5662866925621441,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,0.9824095695069841,1,50.0,0,0.917286754600148,0.6129453961526262,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_8,0.1ohm cc 8.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,0.9993620461324614,1,50.0,0,0.9413654499227876,0.465331016462581,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,150.0,0.6744974161485704,1,150.0,0,0.6875700554389254,1.1087345536242676,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_8_cc,0.1Ω 8 cc.xlsx,1,0,ESC-0.1ohm,10.0,261,test,1,50.0,0.9993620461324614,1,50.0,0,0.9413654499227876,0.465331016462581,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4,10Ω 4.xlsx,1,0,ESC-10ohm,10.0,261,test,0,,,0,,0,0.547259609263174,1.2774293297498032,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_4_difficult,10Ω 4 difficult.xlsx,1,0,ESC-10ohm,10.0,261,test,0,,,0,,0,0.33106350750469055,1.568964314794251,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,261,test,1,75.0,0.7028248326348843,1,75.0,0,0.6315420453563291,0.31598436476964664,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_6,10Ω 6.xlsx,1,0,ESC-10ohm,10.0,261,test,1,75.0,0.7161338733458349,1,75.0,0,0.7215213912799204,0.30568438304113627,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_8,10Ω 8.xlsx,1,0,ESC-10ohm,10.0,261,test,1,75.0,0.7723075129757332,1,75.0,0,0.7180020875531679,0.27956889867692847,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc2,1ohmcc2.xlsx,1,0,ESC-1ohm,10.0,261,test,1,50.0,0.9987721959186279,1,50.0,0,0.9264723933704258,0.4963235966106294,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,261,test,1,50.0,0.997984474106763,1,50.0,0,0.9458717864051492,0.5345915666045936,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2,1Ω 2.xlsx,1,0,ESC-1ohm,10.0,261,test,1,100.0,0.602519856058235,1,100.0,0,0.5150708537362424,0.29722640299793623,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_2_difficult,1Ω 2 difficult.xlsx,1,0,ESC-1ohm,10.0,261,test,1,75.0,0.6743680499376318,1,75.0,0,0.5686224879090412,1.5085494905798857,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,261,test,1,250.0,0.5856532373744983,1,250.0,0,0.6195780435498577,0.3279128022830576,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,261,test,1,75.0,0.7193821244842761,1,75.0,0,0.6027886653036267,2.1284846639641195,70.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_16,normal 16.xlsx,0,0,,,261,test,0,,,0,,0,0.31396857192607325,0.3769023259629501,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,261,test,0,,,0,,0,0.4673993386447475,1.9414139395149532,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,261,test,0,,,0,,0,0.14229634019550985,1.5547295336620541,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_5,normal 5.xlsx,0,0,,,261,test,0,,,0,,0,0.46087718248770465,1.3752239844456942,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_5_difficult,normal 5 difficult.xlsx,0,1,,,261,test,0,,,0,,0,0.15340745130662098,1.5633375363149484,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,269,test,1,50.0,0.5923921545640214,1,50.0,0,0.6285148760152827,0.4481080893956223,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,269,test,1,50.0,0.9326021592920364,1,50.0,0,0.8710845016194778,1.613940069551555,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_4,0.01Ω 4.xlsx,1,0,ESC-0.01ohm,10.0,269,test,1,250.0,0.6773345174450354,1,250.0,0,0.7825831009236145,2.4135072530587585,240.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_8,0.1ohm cc 8.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,0.9824863738448836,1,50.0,0,0.9283942759996981,0.48219762822285067,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,0.5925989542523075,1,50.0,0,0.6606339589847429,0.4706430420407356,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_2_cc,0.1Ω 2 cc.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,0.9992105263157894,1,50.0,0,0.9220435030381323,0.5930261735212301,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,0.902726873019588,1,50.0,0,0.7057654090411896,0.40812646640095546,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9,0.1Ω 9.xlsx,1,0,ESC-0.1ohm,10.0,269,test,0,,,0,,0,0.2749112846912742,1.3484951278800648,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_9_cc,0.1Ω 9 cc.xlsx,1,0,ESC-0.1ohm,10.0,269,test,1,50.0,0.9890071508303768,1,50.0,0,0.917962020097728,0.625232376016089,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_6,10ohm cc 6.xlsx,1,0,ESC-10ohm,10.3,269,test,1,50.0,0.9984047411918224,1,50.0,0,0.9309002936673277,0.5533443676183997,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_8,10ohm cc 8.xlsx,1,0,ESC-10ohm,9.9,269,test,1,50.0,0.9984047411918224,1,50.0,0,0.928397361178201,0.5407910511110287,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_1_cc,10Ω 1 cc.xlsx,1,0,ESC-10ohm,10.0,269,test,1,50.0,0.9984047411918224,1,50.0,0,0.9294695968132748,0.5178062336115398,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,269,test,1,50.0,0.9120828147330458,1,50.0,0,0.7090139866852727,0.39483891204492416,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,269,test,1,50.0,0.9392123287835618,1,50.0,0,0.8513968956440874,1.666428212587289,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,269,test,1,50.0,0.8608298221641191,1,50.0,0,0.7376628596698203,0.5040253540497258,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,269,test,1,50.0,0.9513068511883636,1,50.0,0,0.9040836888052765,0.5557969336824563,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_6,1Ω 6.xlsx,1,0,ESC-1ohm,10.0,269,test,1,50.0,0.9128927435707668,1,50.0,0,0.708428257324418,0.38663868445952,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_6_difficult,1Ω 6 difficult.xlsx,1,0,ESC-1ohm,10.0,269,test,1,50.0,0.9314360446992334,1,50.0,0,0.8172005402770924,2.092323198641773,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8,1Ω 8.xlsx,1,0,ESC-1ohm,10.0,269,test,1,50.0,0.5775932329100852,1,50.0,0,0.6170837028433381,0.4551933356081854,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_8_difficult,1Ω 8 difficult.xlsx,1,0,ESC-1ohm,4.1,269,test,1,50.0,0.8842563838468749,1,50.0,0,0.7458568139458813,1.9076834230727195,45.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12,normal 12.xlsx,0,0,,,269,test,0,,,0,,0,0.47751549765478674,0.6413033539489414,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_12_difficult,normal 12 difficult.xlsx,0,1,,,269,test,0,,,0,,0,0.06420597089003163,1.2472665338118682,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13,normal 13.xlsx,0,0,,,269,test,0,,,0,,0,0.44074336800147573,0.5536604297736142,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_13_difficult,normal 13 difficult.xlsx,0,1,,,269,test,0,,,0,,0,0.06469911710731681,1.2663769232795947,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4,normal 4.xlsx,0,0,,,269,test,0,,,0,,0,0.655755927375349,2.1331909786881784,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_4_difficult,normal 4 difficult.xlsx,0,1,,,269,test,0,,,0,,0,0.13213411334671074,1.8402807460626263,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc7,0.01ohmcc7.xlsx,1,0,ESC-0.01ohm,10.0,275,test,1,50.0,0.9988754799888273,1,50.0,0,0.9471582474274541,0.5181069017227304,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,275,test,1,50.0,0.6993312412788855,1,50.0,0,0.6665535156472067,0.46027275497422443,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,275,test,1,50.0,0.9591946047442594,1,50.0,0,0.97180707034128,1.5981759453604352,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_5,0.1ohm cc 5.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,0.9778556622975955,1,50.0,0,0.8749899727147107,0.663991363025726,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_6,0.1ohm cc 6.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,0.9994477194611803,1,50.0,0,0.9421284165005201,0.5993620472812976,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1,0.1Ω 1.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,400.0,0.6691048064999581,1,400.0,0,0.5015977712005815,1.4152885937411157,390.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_10,0.1Ω 10.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,0.7307000454759924,1,50.0,0,0.6860226100556115,0.4768719668705382,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_1_difficult,0.1Ω 1 difficult.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,0.8558437526314149,1,50.0,0,0.8959704923695931,1.440254096501735,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,75.0,0.619715442078001,1,75.0,0,0.6129383606790508,1.1550057558448477,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,0.9062592712375567,1,50.0,0,0.8718966099529485,1.7195547940701028,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_6,0.1Ω 6.xlsx,1,0,ESC-0.1ohm,10.0,275,test,1,50.0,0.8722357850974223,1,50.0,0,0.7648586893688162,0.4769244617529016,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_10,10ohm cc 10.xlsx,1,0,ESC-10ohm,10.3,275,test,1,50.0,0.9962509163022537,1,50.0,0,0.9187423644834682,0.5561861543524048,39.7,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_3,10ohm cc 3.xlsx,1,0,ESC-10ohm,10.2,275,test,1,50.0,0.9955669966601994,1,50.0,0,0.9126201033876343,0.5999095799869522,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_5,10ohm cc 5.xlsx,1,0,ESC-10ohm,10.2,275,test,1,50.0,0.9969519275203366,1,50.0,0,0.9191227116917223,0.5654620463432439,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_7,10ohm cc 7.xlsx,1,0,ESC-10ohm,10.1,275,test,1,50.0,0.9967481177224822,1,50.0,0,0.9272229999088263,0.5508258330340221,39.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1,1Ω 1.xlsx,1,0,ESC-1ohm,10.0,275,test,1,150.0,0.7146327893914299,1,150.0,0,0.6288341310229384,0.8930457421330408,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_10,1Ω 10.xlsx,1,0,ESC-1ohm,10.0,275,test,1,50.0,0.7838612835638312,1,50.0,0,0.7820316043685054,0.4351868064112483,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_cc,1Ω 1 cc.xlsx,1,0,ESC-1ohm,10.0,275,test,1,50.0,0.9447620147016099,1,50.0,0,0.8475618488604113,0.5272784369958258,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_1_difficult,1Ω 1 difficult.xlsx,1,0,ESC-1ohm,10.0,275,test,1,50.0,0.8803704356312738,1,50.0,0,0.6975434468578126,0.5983938548931754,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_9,1Ω 9.xlsx,1,0,ESC-1ohm,10.0,275,test,1,50.0,0.6071698160069453,1,50.0,0,0.6490264140276435,0.5086088368840629,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_10,normal 10.xlsx,0,0,,,275,test,1,50.0,0.6418226069009004,1,50.0,0,0.6617390756612995,0.576503125581014,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_10_difficult,normal 10 difficult.xlsx,0,1,,,275,test,0,,,0,,0,0.07906938875462607,2.876495033895792,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_6,normal 6.xlsx,0,0,,,275,test,0,,,0,,0,0.37519507258707513,1.7538980896880678,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_6_difficult,normal 6 difficult.xlsx,0,1,,,275,test,1,50.0,0.9031855958564261,1,50.0,0,0.8033295051446411,0.5848882058315902,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8,normal 8.xlsx,0,0,,,275,test,0,,,0,,0,0.3519492462933898,1.5799702633767845,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_8_difficult,normal 8 difficult.xlsx,0,1,,,275,test,0,,,0,,0,0.08481980703545429,2.8989070570840467,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01ohmcc4,0.01ohmcc4.xlsx,1,0,ESC-0.01ohm,10.0,289,test,1,50.0,0.9990534178259252,1,50.0,0,0.9552718849201857,0.4691637504972192,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1,0.01Ω 1.xlsx,1,0,ESC-0.01ohm,10.0,289,test,1,100.0,0.7809322519862392,1,100.0,0,0.5276793140681757,1.5202427666427947,90.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.01Ω_1_difficult,0.01Ω 1 difficult.xlsx,1,0,ESC-0.01ohm,10.0,289,test,1,75.0,0.7425044274432646,1,75.0,0,0.7383242687154887,3.1201768972151087,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_10,0.1ohm cc 10.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,50.0,0.9876792889664849,1,50.0,0,0.8988790536458786,0.5814631684484667,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1ohm_cc_9,0.1ohm cc 9.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,50.0,0.9989282403793669,1,50.0,0,0.9294649016403257,0.579022331103879,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3,0.1Ω 3.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,0.768499519930355,1,75.0,0,0.6609670031474891,0.31040653438676136,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_3_difficult,0.1Ω 3 difficult.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,0.828424777270059,1,75.0,0,0.8654544496295387,2.41396301382185,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4,0.1Ω 4.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,150.0,0.7563530468325272,1,150.0,0,0.6258303482062109,1.0650866230488634,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_4_difficult,0.1Ω 4 difficult.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,0.8286195126448961,1,75.0,0,0.8050219485845915,2.1563179437249844,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5,0.1Ω 5.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,0.7212107427555339,1,75.0,0,0.59154684753255,0.28578569411676735,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_5_difficult,0.1Ω 5 difficult.xlsx,1,0,ESC-0.1ohm,4.1,289,test,1,75.0,0.8198310740246495,1,75.0,0,0.7732240421972558,2.051758723066202,70.9,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__0.1Ω_7,0.1Ω 7.xlsx,1,0,ESC-0.1ohm,10.0,289,test,1,75.0,0.6722504547995093,1,75.0,0,0.6509588176566369,1.0824880327606499,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10ohm_cc_9,10ohm cc 9.xlsx,1,0,ESC-10ohm,10.2,289,test,1,50.0,0.993291306128626,1,50.0,0,0.9239388682977627,0.5151250238372006,39.8,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3,10Ω 3.xlsx,1,0,ESC-10ohm,10.0,289,test,1,50.0,0.9211622098135999,1,50.0,0,0.7122221149190396,0.37726104951878925,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_3_difficult,10Ω 3 difficult.xlsx,1,0,ESC-10ohm,10.0,289,test,1,50.0,0.9227718292860552,1,50.0,0,0.8266706601445069,1.5268259667510697,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_5,10Ω 5.xlsx,1,0,ESC-10ohm,10.0,289,test,1,75.0,0.7502079324859485,1,75.0,0,0.6448272986998874,0.3067529740595253,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__10Ω_9,10Ω 9.xlsx,1,0,ESC-10ohm,10.0,289,test,1,75.0,0.812743016159615,1,75.0,0,0.6680110385786145,0.27380042871886473,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc1,1ohmcc1.xlsx,1,0,ESC-1ohm,10.0,289,test,1,50.0,0.9649225696248368,1,50.0,0,0.9044996474359405,0.4670559998110481,40.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc10,1ohmcc10.xlsx,1,0,ESC-1ohm,9.9,289,test,1,50.0,0.9989172351229523,1,50.0,0,0.9482581013384139,0.4556226629329386,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1ohmcc6,1ohmcc6.xlsx,1,0,ESC-1ohm,9.9,289,test,1,50.0,0.9859038671682523,1,50.0,0,0.9023912509462437,0.5252455252231603,40.1,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3,1Ω 3.xlsx,1,0,ESC-1ohm,10.0,289,test,1,150.0,0.6803258108584112,1,150.0,0,0.5624894725687015,0.6861325219849544,140.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__1Ω_3_difficult,1Ω 3 difficult.xlsx,1,0,ESC-1ohm,10.0,289,test,1,75.0,0.727543087705329,1,75.0,0,0.6610533698744752,1.8731552654981958,65.0,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_14,normal 14.xlsx,0,0,,,289,test,1,75.0,0.7772716765217842,1,75.0,0,0.6154028860794775,0.3208539505098692,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_14_difficult,normal 14 difficult.xlsx,0,1,,,289,test,0,,,0,,0,0.1139519700272779,1.027264914183297,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2,normal 2.xlsx,0,0,,,289,test,0,,,0,,0,0.32250332215407007,1.9400002674790682,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_2_difficult,normal 2 difficult.xlsx,0,1,,,289,test,0,,,0,,0,0.10574155354710017,1.8926454871920304,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_7,normal 7.xlsx,0,0,,,289,test,0,,,0,,0,0.39415140899496326,1.3758379483998937,,ResCompact_NormalityVerifier_accuracy_only
+target100__大电池短路数据__normal_7_difficult,normal 7 difficult.xlsx,0,1,,,289,test,0,,,0,,0,0.04011283754263845,2.379067026541772,,ResCompact_NormalityVerifier_accuracy_only

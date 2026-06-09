@@ -33,6 +33,7 @@ if os.environ.get("HORIZON_SET", "").lower() == "extended":
 else:
     HORIZONS_CASCADE = (50.0, 75.0, 100.0, 150.0)
 USE_PREFIX_GLOBAL_SHAPE = os.environ.get("PREFIX_GLOBAL_SHAPE", "1").lower() in {"1", "true", "yes"}
+INCLUDE_ABSOLUTE_VOLTAGE = os.environ.get("INCLUDE_ABSOLUTE_VOLTAGE", "0").lower() in {"1", "true", "yes"}
 PREFIX_CACHE_TAG = os.environ.get("PREFIX_CACHE_TAG", "rescompact_global_v2" if USE_PREFIX_GLOBAL_SHAPE else "rescompact_v1")
 HEAD_MODEL = os.environ.get("HEAD_MODEL", "lr").lower()
 OUTPUT_SUFFIX = os.environ.get("OUTPUT_SUFFIX", "").strip()
@@ -204,11 +205,20 @@ def build_feature_columns(window_df: pd.DataFrame) -> list[str]:
         "range_norm",
         "rc_",
     )
+    selected = [c for c in cols if any(p in c for p in useful_patterns)]
+    if INCLUDE_ABSOLUTE_VOLTAGE:
+        selected.extend(
+            [
+                c
+                for c in cols
+                if re.search(r"(^|_)v0$|(^|_)vend$|(^|_)v_mean$|(^|_)v_min$|(^|_)v_max$", c)
+            ]
+        )
+        return list(dict.fromkeys(selected))
     return [
         c
-        for c in cols
+        for c in selected
         if not re.search(r"(^|_)v0$|(^|_)vend$|(^|_)v_mean$|(^|_)v_min$|(^|_)v_max$", c)
-        and any(p in c for p in useful_patterns)
     ]
 
 
@@ -314,6 +324,61 @@ def prefix_global_shape_features(prefix: pd.DataFrame, horizon_s: float) -> pd.D
                 tail_slope = 0.0
         else:
             tail_slope = 0.0
+        cp_gain = 0.0
+        cp_fraction = 0.0
+        cp_slope_delta = 0.0
+        cp_pre_slope = 0.0
+        cp_post_slope = 0.0
+        cp_cusum = 0.0
+        curvature_q95 = 0.0
+        local_drop_ratio = 0.0
+        if len(v) >= 6 and duration > eps:
+            x = (t - t[0]) / duration
+            y_drop = (start_v - v) / scale
+            try:
+                single_coef = np.polyfit(x, y_drop, 1)
+                single_res = y_drop - np.polyval(single_coef, x)
+                single_sse = float(np.sum(single_res**2)) + eps
+                best_gain = -np.inf
+                best_idx = 2
+                best_pre = 0.0
+                best_post = 0.0
+                for idx in range(2, len(x) - 2):
+                    if x[idx] - x[0] < 0.05 or x[-1] - x[idx] < 0.05:
+                        continue
+                    pre_coef = np.polyfit(x[: idx + 1], y_drop[: idx + 1], 1)
+                    post_coef = np.polyfit(x[idx:], y_drop[idx:], 1)
+                    pre_res = y_drop[: idx + 1] - np.polyval(pre_coef, x[: idx + 1])
+                    post_res = y_drop[idx:] - np.polyval(post_coef, x[idx:])
+                    piece_sse = float(np.sum(pre_res**2) + np.sum(post_res**2)) + eps
+                    gain = 1.0 - piece_sse / single_sse
+                    if gain > best_gain:
+                        best_gain = gain
+                        best_idx = idx
+                        best_pre = float(pre_coef[0])
+                        best_post = float(post_coef[0])
+                cp_gain = float(max(0.0, best_gain))
+                cp_fraction = float(x[best_idx])
+                cp_pre_slope = best_pre
+                cp_post_slope = best_post
+                cp_slope_delta = float(best_post - best_pre)
+            except (np.linalg.LinAlgError, ValueError, FloatingPointError):
+                pass
+            dy = np.diff(y_drop)
+            if len(dy):
+                centered = dy - np.nanmedian(dy)
+                cumulative = np.cumsum(np.nan_to_num(centered, nan=0.0))
+                cp_cusum = float(np.nanmax(np.abs(cumulative))) if len(cumulative) else 0.0
+            if len(y_drop) >= 3:
+                dx = np.diff(x)
+                dy_dx = np.divide(np.diff(y_drop), dx, out=np.zeros(len(dx), dtype=float), where=np.abs(dx) > eps)
+                dd = np.diff(dy_dx)
+                curvature_q95 = float(np.nanquantile(np.abs(dd), 0.95)) if len(dd) else 0.0
+            if len(y_drop) >= 4:
+                span = max(2, int(round(0.12 * len(y_drop))))
+                local = y_drop[span:] - y_drop[:-span]
+                total = abs(float(y_drop[-1] - y_drop[0])) + eps
+                local_drop_ratio = float(np.nanmax(np.abs(local)) / total) if len(local) else 0.0
         global_slope = -drop / duration
         recovery_fraction = max(0.0, max_drop - drop) / (abs(max_drop) + eps)
         final_to_max_drop_ratio = drop / (abs(max_drop) + eps)
@@ -337,6 +402,14 @@ def prefix_global_shape_features(prefix: pd.DataFrame, horizon_s: float) -> pd.D
             f"pg_{int(horizon_s)}s_slope_sign_change_rate": float(sign_changes),
             f"pg_{int(horizon_s)}s_slope_q10_norm": float(np.nanquantile(finite_slopes, 0.10) / scale) if len(finite_slopes) else 0.0,
             f"pg_{int(horizon_s)}s_slope_q90_norm": float(np.nanquantile(finite_slopes, 0.90) / scale) if len(finite_slopes) else 0.0,
+            f"pg_{int(horizon_s)}s_cp_piecewise_gain": float(cp_gain),
+            f"pg_{int(horizon_s)}s_cp_time_fraction": float(cp_fraction),
+            f"pg_{int(horizon_s)}s_cp_pre_slope_norm": float(cp_pre_slope),
+            f"pg_{int(horizon_s)}s_cp_post_slope_norm": float(cp_post_slope),
+            f"pg_{int(horizon_s)}s_cp_slope_delta_norm": float(cp_slope_delta),
+            f"pg_{int(horizon_s)}s_cp_cusum_norm": float(cp_cusum),
+            f"pg_{int(horizon_s)}s_curvature_q95_norm": float(curvature_q95),
+            f"pg_{int(horizon_s)}s_local_drop_ratio": float(local_drop_ratio),
         }
         rows.append(row)
     return pd.DataFrame(rows)
@@ -761,4 +834,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
