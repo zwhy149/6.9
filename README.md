@@ -55,6 +55,10 @@ A Neyman-Pearson/conformal-style validation-normal calibration was added as a se
 
 This is the best valid specificity-oriented result so far, but it still does not reach 0.91 specificity and it reduces accuracy/recall. Therefore the main paper result should remain the conservative validation selector unless the paper explicitly needs a lower-recall false-alarm-control operating point.
 
+## Rejected dual-evidence veto
+
+A dual-evidence local veto was added after an oracle screen suggested a possible false-positive reduction. Under strict validation-only model selection, the selector chose no veto for every seed. The resulting 30-seed test performance is accuracy `0.9425`, specificity `0.8622`, and recall `0.9657`, so this is a rejected audit rather than a valid specificity improvement.
+
 ## Directory layout
 
 - `code/final_pipeline`: scripts used for the adopted final detector, validation-selected gate audit, error budget, and final report/figure generation.
@@ -65,7 +69,7 @@ This is the best valid specificity-oriented result so far, but it still does not
 - `results/specificity_target_audit`: specificity target feasibility audit, post-hoc trade-off table, false-positive frequency, and uncertainty table.
 - `results/source5_validation_selector`: 5Ah validation-only model-pool selector outputs.
 - `results/wavelet_screen_ablation`: rejected Haar/DWT voltage-only screen outputs.
-- `results/specificity_attempt_round`: NP/conformal calibration, smooth counterfactual negative, severity multiclass, and attempt-round comparison outputs.
+- `results/specificity_attempt_round`: NP/conformal calibration, dual-evidence veto audit, smooth counterfactual negative, severity multiclass, and attempt-round comparison outputs.
 - `figures/paper_main`: main paper/reviewer figures.
 - `figures/diagnostics`: diagnostic public/hard-case figures.
 - `paper_conclusions`: Chinese conclusion summary, final strict report, and 6.9 refinement update.

@@ -39,6 +39,8 @@ def build_table() -> pd.DataFrame:
     add_row(rows, "NP q90 calibration", q90.accuracy_mean, q90.accuracy_std, q90.specificity_mean, q90.specificity_std, q90.recall_mean, q90.recall_std, "valid 30-seed alternative")
     conf = np_summary[np_summary["variant"].astype(str).str.startswith("conformal")].iloc[0]
     add_row(rows, "NP max/conformal calibration", conf.accuracy_mean, conf.accuracy_std, conf.specificity_mean, conf.specificity_std, conf.recall_mean, conf.recall_std, "valid 30-seed alternative")
+    dual = pd.read_csv(OUT / "dual_evidence_veto_summary.csv").iloc[0]
+    add_row(rows, "Dual evidence veto", dual.accuracy_mean, dual.accuracy_std, dual.specificity_mean, dual.specificity_std, dual.recall_mean, dual.recall_std, "valid 30-seed rejected")
 
     smooth = pd.read_csv(OUT / "fast_prefix_summary_smoothcf_et30_10seed.csv").iloc[0]
     add_row(rows, "Smooth counterfactual negatives", smooth.accuracy_mean, smooth.accuracy_std, smooth.specificity_mean, smooth.specificity_std, smooth.recall_mean, smooth.recall_std, "10-seed screen rejected")
@@ -81,6 +83,13 @@ def write_report(table: pd.DataFrame) -> None:
         "- 100Ah specificity has not reached 0.91-0.95 under a valid duplicate-aware protocol.",
         "- The best valid specificity-oriented alternative in this round is NP max/conformal calibration: specificity 0.8844, but accuracy falls to 0.9278 and recall to 0.9394.",
         "- The current validation-selected model remains the best main-result operating point: accuracy 0.9438, specificity 0.8678, recall 0.9657.",
+        "- A dual-evidence local veto looked promising in a test-oracle screen, but strict validation-only selection chose no veto for all seeds; it therefore cannot be claimed as a valid improvement.",
+        "",
+        "## Literature-Grounded Transfer Interpretation",
+        "- Search date: 2026-06-09.",
+        "- Recent battery fault diagnosis papers emphasize cross-condition and cross-device domain shift as a primary cause of false diagnosis and degraded generalization, motivating multi-source domain generalization or domain adaptation rather than direct transfer.",
+        "- Large-format or pack-level voltage-only diagnosis is expected to be harder because voltage responses can be attenuated or confounded by operating condition, capacity, state, and sensor effects. Therefore, a 100Ah target-domain result lower than the 5Ah source-domain result is scientifically plausible under pure-voltage constraints.",
+        "- Supporting sources: Energy 2025 multi-source domain generalization for LIB multi-fault diagnosis (https://doi.org/10.1016/j.energy.2025.138230); Journal of Energy Storage 2026 RFG-DAFT multi-source domain adaptation for EV battery fault diagnosis (https://doi.org/10.1016/j.est.2025.119960); Applied Energy 2024 short-circuit detection in LIB packs (https://doi.org/10.1016/j.apenergy.2024.125087); Scientific Reports 2024 voltage fault detection with segmented regression and GRU (https://www.nature.com/articles/s41598-024-82960-0).",
         "",
         "## New Attempts",
     ]
@@ -93,6 +102,7 @@ def write_report(table: pd.DataFrame) -> None:
             "",
             "## Technical Interpretation",
             "- NP/conformal calibration is publication-defensible as a secondary high-specificity operating point because it explicitly controls false alarms from validation normal samples.",
+            "- The strict dual-evidence veto audit rejects the test-oracle improvement. Because validation selection chose the no-veto rule in every seed, reporting the oracle grid as a final method would be leakage/cherry-picking.",
             "- Smooth counterfactual negative augmentation did not help; feature-space augmentation made the prefix model less stable.",
             "- Severity multiclass joint learning did not help; normal/fault separation is still dominated by trend-like normal files.",
             "- Haar wavelet features did not help on this dataset; smooth normal trend and weak short-circuit signatures overlap in the pure-voltage feature space.",
