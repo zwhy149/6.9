@@ -78,6 +78,34 @@ A dual-evidence local veto was added after an oracle screen suggested a possible
 
 A point-to-set prototype veto was implemented to test a metric-gated transfer-learning idea using segmented/change-point pure-voltage features. The publication-defensible version only allows a veto when a predicted fault is closer to target-normal prototypes than to fault prototypes. Under validation-only selection it chose no veto in all 30 seeds, so the result reverted to the current selector: accuracy `0.9438`, specificity `0.8678`, and recall `0.9657`.
 
+## 5Ah uncertainty reporting refinement
+
+The requested `+/- 0.0356` value is the cross-seed standard deviation of 5Ah accuracy, not the uncertainty of the mean. The valid main-table reporting is:
+
+- Accuracy: `0.9644 +/- 0.0065` SEM over 30 repeated splits
+- Cross-split robustness STD: `0.0356`
+- 95% t interval: `[0.9511, 0.9777]`
+- Bootstrap 95% interval: `[0.9517, 0.9759]`
+
+The `STD` should stay in the robustness appendix. The `SEM` or confidence interval is the correct main-text uncertainty when discussing the estimated mean accuracy.
+
+## Final reviewer-facing operating points
+
+The voltage-only 100Ah method should be presented as one transfer-detection family with two pre-declared operating points:
+
+- High-recall point: accuracy `0.9438 +/- 0.0389` STD, specificity `0.8678`, recall `0.9657`
+- Recommended false-alarm-control point: `max_alpha0.05_add0.050`, accuracy `0.9149 +/- 0.0932` STD, specificity `0.9200`, recall `0.9132`
+- Very conservative diagnostic point: `max_alpha0.05_add0.080`, specificity `0.9333`, but accuracy drops to `0.8908`, so it is not the main detector
+
+If the paper only reports `specificity = 0.8678`, reviewer criticism is likely because copied normal voltage trends directly test false alarms. Reporting the full NP safety-margin family makes the specificity/recall trade-off explicit and academically defensible.
+
+## Latest literature anchors
+
+- Nature Communications 2025 model-constrained transfer learning and false-positive interval reduction: https://doi.org/10.1038/s41467-025-56832-8
+- Scientific Reports 2025 adaptive-threshold battery fault detection: https://www.nature.com/articles/s41598-025-03227-w
+- Journal of Energy Storage 2026 multi-source domain adaptation under distribution shift: https://doi.org/10.1016/j.est.2025.119960
+- Energy 2025 multi-source domain generalization for unseen battery-fault domains: https://doi.org/10.1016/j.energy.2025.138230
+- Journal of Power Sources 2025 transfer learning for limited battery fault data: https://doi.org/10.1016/j.jpowsour.2025.237192
 ## Directory layout
 
 - `code/final_pipeline`: scripts used for the adopted final detector, validation-selected gate audit, error budget, and final report/figure generation.
